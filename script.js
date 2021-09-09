@@ -18,5 +18,7 @@ function change(){
     front.textContent = entry.translation;
     back.textContent = entry.hieroglyph + ' ' + entry.pinyin;
 }
-
+document.getElementById("flipper").onclick = function() {
+    document.getElementById("flipper").classList.toggle("flip")
+}
 change()
