@@ -1,16 +1,19 @@
-
+body{
+  background-image: url(assets/background.jpg);
+}
 
 .exercise-field{
-    background-color: aqua;
     padding: 2%;
     display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(45deg, rgba(167, 167, 167, 0.836), rgba(172, 168, 168, 0.945), rgba(167, 167, 167, 0.836));
 }
 
 .exercize-nav{
     padding: 1%;
-    background-color: blanchedalmond;
+    background: linear-gradient(45deg, rgba(167, 167, 167, 0.836), rgba(172, 168, 168, 0.945), rgba(167, 167, 167, 0.836));
+    margin-left: 2%;
 }
 
 .my-check{  
@@ -68,4 +71,10 @@
   margin-top: 40%;
   margin-bottom: 40%;
   font-size: 250%;
+}
+
+.my-nav{
+  /* background-color: rgba(167, 167, 167, 0.836); */
+  background: linear-gradient(45deg, rgba(167, 167, 167, 0.836), rgba(172, 168, 168, 0.945), rgba(167, 167, 167, 0.836));
+  padding: 1.4%;
 }
