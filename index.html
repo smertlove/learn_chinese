@@ -12,34 +12,15 @@
     <body>
         
         <div class = "container my-nav">
-            <h1>
+            <h1 class = "text-block">
                 Welcome to the "Learn chinese" website by Smertlove!
             </h1>
-            <h4>
+            <h4 class = "text-block">
                 There are not that much going on atm. You can just select lessons u want to learn
              hieroglyphs from and <s>suffer</s> enjoy learning chisene language!
             </h4>
         </div>
-        <div class="row container-fluid">
-            <div class="col-2 exercize-nav">
-                
-                <b style="background-color: red;">НЕ РАБОТАЕТ</b>
-                <p>
-                    lessons u can<br>
-                     enable atm: 
-                </p>
-                <div class="form-check form-check-inline">
-                    
-                    <input class="form-check-input my-check" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1">1</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input my-check" type="checkbox" id="inlineCheckbox2" value="option2">
-                    <label class="form-check-label" for="inlineCheckbox2">2</label>
-                </div>
-                
-            </div>
-            <div class="col">
+        
                 <div class="china-background">
                     <div class="my-grad">
                     <div class="card exercise-field">
@@ -50,21 +31,18 @@
                         <div class="card-body ">
 
                             
-                                <!-- <div class="my-card">
-                                <div class="front"><span id="frnt">Some text</span></div>
-                                <div class="back"><span id="bck">Some other text</span></div>
-                                </div> -->
+                             
                                 <div class="flipper" id="flipper">
                                     <div class="flip-card">
-                                        <div class="front">
-                                            <div id="frnt">
+                                        <div class="front" id='f'>
+                                            <div id="front">
                                                 <h3>
                                                     some text
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div class="back">
-                                            <div id="bck">
+                                        <div class="back" id = 'b'>
+                                            <div id="back">
                                                 <h3>
                                                     some other text
                                                 </h3>
@@ -74,13 +52,16 @@
                                     </div>
                                 </div>
 
-                        <button type="button" class="btn btn-dark btn-lg btn-block" onclick="change()">next hieroglyph</button>
+                        <button type="button" class="btn btn-dark btn-lg btn-block" onclick="changeAction()">next hieroglyph</button>
                         </div>
                     </div>
                 </div>
+            
             </div>
+            <div class = "container my-nav">
+                <p class = "text-block">Enter - turn the card over. Space - get a new card. 
+                    If the card is turned to the "chinese" side, it'll turn to the "russian" one</p>
             </div>
-        </div>
             
               
 

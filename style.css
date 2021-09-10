@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  background-color: rgb(46, 45, 45);
 }
 
 .exercise-field{
@@ -14,8 +14,8 @@ body{
 
 .exercize-nav{
     padding: 1%;
-    background: linear-gradient(45deg, rgba(167, 167, 167, 0.836), rgba(172, 168, 168, 0.945), rgba(167, 167, 167, 0.836));
     margin-left: 2%;
+    color: white;
 }
 
 .my-check{  
@@ -69,7 +69,7 @@ body{
   height: 100%;
 }
 
-#frnt, #bck {
+#front, #back {
   margin-top: 40%;
   margin-bottom: 40%;
   font-size: 250%;
@@ -77,17 +77,41 @@ body{
 
 .my-nav{
   /* background-color: rgba(167, 167, 167, 0.836); */
-  background: linear-gradient(45deg, rgba(167, 167, 167, 0.836), rgba(172, 168, 168, 0.945), rgba(167, 167, 167, 0.836));
+  color: white;
   padding: 1.4%;
+  align-items: center;
 }
 
 .china-background{
   background-image: url(assets/background.jpg);
   background-position: top;
-  border-radius: 1%;
+  border-radius: 3%;
+  
   
 }
 .my-grad{
   background: linear-gradient(180deg, rgba(44, 43, 43, 0.836),  rgba(238, 16, 16, 0.644));
-  border-radius: 1%;
+  border-radius: 3%;
+
+}
+/* .china-background{
+  background-image: url(assets/background.jpg);
+  /* background-position: top; */
+  /* border-radius: 3%;
+  
+} */ 
+
+#f{
+  background-color: rgb(255, 255, 255);
+  border-color: yellow;
+}
+#b{
+  background-color: rgb(255, 255, 255);
+  border-color: yellow;
+}
+
+
+.text-block{
+  margin-left: auto;
+  margin-right: auto;
 }
