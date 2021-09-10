@@ -1,13 +1,15 @@
 body{
-  background-image: url(assets/background.jpg);
+  background-color: black;
 }
 
 .exercise-field{
     padding: 2%;
     display: flex;
+    background: rgba(0, 0, 0, 0);
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, rgba(167, 167, 167, 0.836), rgba(172, 168, 168, 0.945), rgba(167, 167, 167, 0.836));
+  color: white;
+  
 }
 
 .exercize-nav{
@@ -77,4 +79,15 @@ body{
   /* background-color: rgba(167, 167, 167, 0.836); */
   background: linear-gradient(45deg, rgba(167, 167, 167, 0.836), rgba(172, 168, 168, 0.945), rgba(167, 167, 167, 0.836));
   padding: 1.4%;
+}
+
+.china-background{
+  background-image: url(assets/background.jpg);
+  background-position: top;
+  border-radius: 1%;
+  
+}
+.my-grad{
+  background: linear-gradient(180deg, rgba(44, 43, 43, 0.836),  rgba(238, 16, 16, 0.644));
+  border-radius: 1%;
 }
