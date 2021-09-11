@@ -5,40 +5,10 @@ var heiroglyphs =	[{
     "lesson": 1
 },
 {
-    "hieroglyph": "人",
-    "translation": "человек",
-    "pinyin": "Rén",
-    "lesson": 1
-},
-{
-    "hieroglyph": "女",
-    "translation": "женщина",
-    "pinyin": "Nǚ",
-    "lesson": 1
-},
-{
-    "hieroglyph": "子",
-    "translation": "ребенок",
-    "pinyin": "Zǐ",
-    "lesson": 1
-},
-{
     "hieroglyph": "好",
     "translation": "хорошо, хороший",
     "pinyin": "Hǎo",
     "lesson": 1
-},
-{
-    "hieroglyph": "口",
-    "translation": "рот",
-    "pinyin": "Kǒu",
-    "lesson": 2
-},
-{
-    "hieroglyph": "马",
-    "translation": "лошадь",
-    "pinyin": "Mǎ",
-    "lesson": 2
 },
 {
     "hieroglyph": "吗",
@@ -59,33 +29,9 @@ var heiroglyphs =	[{
     "lesson": 2
 },
 {
-    "hieroglyph": "艮",
-    "translation": "твердый",
-    "pinyin": "Gěn",
-    "lesson": 2
-},
-{
-    "hieroglyph": "彳",
-    "translation": "шаг",
-    "pinyin": "Chì",
-    "lesson": 2
-},
-{
     "hieroglyph": "呢",
     "translation": "(модальная частица)",
     "pinyin": "Ne",
-    "lesson": 2
-},
-{
-    "hieroglyph": "尸",
-    "translation": "труп",
-    "pinyin": "Shī",
-    "lesson": 2
-},
-{
-    "hieroglyph": "匕",
-    "translation": "ложка, черпак",
-    "pinyin": "Bǐ",
     "lesson": 2
 },
 {
@@ -93,5 +39,76 @@ var heiroglyphs =	[{
     "translation": "тоже, также, и",
     "pinyin": "Yě",
     "lesson": 2
+}
+
+,
+{
+    "hieroglyph": "忙",
+    "translation": "занятый",
+    "pinyin": "Máng",
+    "lesson": 3
+}
+
+,
+{
+    "hieroglyph": "不",
+    "translation": "нет, не",
+    "pinyin": "Bù",
+    "lesson": 3
+}
+
+,
+{
+    "hieroglyph": "弟弟",
+    "translation": "младший брат",
+    "pinyin": "Dìdì",
+    "lesson": 3
+}
+
+,
+{
+    "hieroglyph": "哥哥",
+    "translation": "старший брат",
+    "pinyin": "Gēgē",
+    "lesson": 3
+}
+
+,
+{
+    "hieroglyph": "他们",
+    "translation": "они (любые, одуш)",
+    "pinyin": "Tāmen",
+    "lesson": 3
+}
+
+,
+{
+    "hieroglyph": "她们",
+    "translation": "они (женщины)",
+    "pinyin": "Tāmen",
+    "lesson": 3
+}
+
+,
+{
+    "hieroglyph": "他",
+    "translation": "он",
+    "pinyin": "Tā",
+    "lesson": 3
+}
+
+,
+{
+    "hieroglyph": "她",
+    "translation": "она",
+    "pinyin": "Tā",
+    "lesson": 3
+}
+,
+{
+    "hieroglyph": "都",
+    "translation": "все, всё",
+    "pinyin": "Dōu",
+    "lesson": 3
 }
 ]

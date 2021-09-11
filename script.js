@@ -1,7 +1,7 @@
 "use strict";
 var cardColors = ['rgb(255, 255, 255)', 'rgb(231, 119, 119)',
                 'rgb(245, 223, 113)','rgb(212, 240, 148)',
-                'rgb(250, 152, 164)', 'rgb(235, 241, 242)']
+                'rgb(250, 152, 164)', 'rgb(235, 241, 242)'];
 
 var rotated = false;
 var front = document.getElementById("front");
@@ -17,16 +17,20 @@ function getRandomColor(){
     return c;
 } 
   
-function getExercise(hieroglyphs){
-    let entry = hieroglyphs[getRandomInt(0, hieroglyphs.length)];
+function getExerciseH(){
+    let entry = heiroglyphs[getRandomInt(0, heiroglyphs.length)];
+    return entry;
+}
+
+function getExerciseK(){
+    let entry = keys[getRandomInt(0, keys.length)];
     return entry;
 }
 
 
 
-
 function rotate(){
-    document.getElementById("flipper").classList.toggle("flip")
+    document.getElementById("flipper").classList.toggle("flip");
     if(rotated){
         rotated = false;
     }else{
@@ -36,7 +40,7 @@ function rotate(){
 
 
 function change(){
-    let entry = getExercise(heiroglyphs);
+    let entry = [getExerciseH(keys), getExerciseK(heiroglyphs)][getRandomInt(0, 1)];
     front.textContent = entry.translation;
     back.textContent = entry.hieroglyph + ' ' + entry.pinyin;
     
@@ -54,7 +58,7 @@ function changeAction(){
         rotated = false;
         setTimeout("change()", 150)  ;
     }else{
-        change()
+        change();
     }
     
     
@@ -76,4 +80,4 @@ document.addEventListener( 'keyup', event => {
         };
       });
 
-change()
+change();

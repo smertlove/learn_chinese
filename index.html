@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>learn chinese</title>
@@ -13,13 +13,50 @@
         
         <div class = "container my-nav">
             <h1 class = "text-block">
-                Welcome to the "Learn chinese" website by Smertlove!
+                Welcome to the "Learn Chinese" website by Smertlove.
             </h1>
             <h4 class = "text-block">
-                There are not that much going on atm. You can just select lessons u want to learn
-             hieroglyphs from and <s>suffer</s> enjoy learning chisene language!
+                Select a type of hieroglyphs you want to practice and <s>suffer</s> enjoy learning chisene language!
             </h4>
-        </div>
+            
+            <div class = "container-fluid" align=center>
+
+                <h5 class="my-settings">show: </h5>
+                <div class="dropdown my-settings">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        all  hieroglyphs
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">all hieroglyphs</a>
+                        <a class="dropdown-item" href="#">keys only</a>
+                        <a class="dropdown-item" href="#">compounds only</a>
+                    </div>
+                </div>
+                <h5 class="my-settings">with lessons from</h5>
+                <div class="dropdown my-settings">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        1
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <h5 class="my-settings">to</h5>
+                <div class="dropdown my-settings">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        3
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            
+            </div>
+        
         
                 <div class="china-background">
                     <div class="my-grad">
@@ -60,7 +97,8 @@
             </div>
             <div class = "container my-nav">
                 <p class = "text-block">Enter - turn the card over. Space - get a new card. 
-                    If the card is turned to the "chinese" side, it'll turn to the "russian" one</p>
+                    If the card is turned to the "chinese" side, it'll turn to the "russian" one
+                    when pressing Space button.</p>
             </div>
             
               
@@ -68,9 +106,15 @@
             
         
         <script src="heiroglyphs.js"></script>
+        <script src="keys.js"></script>
         <script src="script.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
     </body>
 </html>
