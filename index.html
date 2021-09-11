@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>learn chinese</title>
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -11,7 +12,7 @@
     </head>
     <body>
         
-        <div class = "container my-nav">
+        <div class = "container-fluid my-nav">
             <h1 class = "text-block">
                 Welcome to the "Learn Chinese" website by Smertlove.
             </h1>
@@ -19,39 +20,37 @@
                 Select a type of hieroglyphs you want to practice and <s>suffer</s> enjoy learning chisene language!
             </h4>
             
-            <div class = "container-fluid" align=center>
+            <div class = "container-fluid bot-marg" align=center >
 
                 <h5 class="my-settings">show: </h5>
                 <div class="dropdown my-settings">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         all  hieroglyphs
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">all hieroglyphs</a>
-                        <a class="dropdown-item" href="#">keys only</a>
-                        <a class="dropdown-item" href="#">compounds only</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+                        <a class="dropdown-item" href="#" onclick="setChoice0()">all hieroglyphs</a>
+                        <a class="dropdown-item" href="#" onclick="setChoice1()">keys only</a>
+                        <a class="dropdown-item" href="#" onclick="setChoice2()">compounds only</a>
                     </div>
                 </div>
                 <h5 class="my-settings">with lessons from</h5>
                 <div class="dropdown my-settings">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="lessonStartDropdown" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false" >
                         1
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu" aria-labelledby="lessonStartDropdown" id="lessonStart">
+                        
                     </div>
                 </div>
                 <h5 class="my-settings">to</h5>
                 <div class="dropdown my-settings">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="lessonFinishDropdown" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false">
                         3
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu" aria-labelledby="lessonFinishDropdown" id = "lessonFinish">
+                       
                     </div>
                 </div>
             

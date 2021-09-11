@@ -77,7 +77,7 @@ body{
 
 .my-nav{
   /* background-color: rgba(167, 167, 167, 0.836); */
-  
+  text-align: center;
   color: white;
   padding: 1.4%;
   align-items: center;
@@ -119,4 +119,9 @@ body{
 
 .my-settings{
   display: inline-block;
+}
+
+.bot-marg{
+  margin-bottom: 1%;
+  
 }
