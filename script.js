@@ -6,9 +6,14 @@ var cardColors = ['rgb(255, 255, 255)', 'rgb(231, 119, 119)',
 var rotated = false;
 var front = document.getElementById("front");
 var back = document.getElementById("back");
-var change = null;
-var fromm = 1
-var too = 4
+
+var fromm = 1;
+var too = 4; // увеличивать на 1 после каждого урока
+
+
+var getVarFunc = null;
+var variants = [];
+
 
 
 
@@ -17,14 +22,14 @@ function fromFunction(i){
     fromm = i;
     let f = document.getElementById("lessonStartDropdown");
     f.innerText = i;
-    console.log('1');
+    getVarFunc();
 }
 
 function toFunction(i){
     too = i;
     let f = document.getElementById("lessonFinishDropdown");
     f.innerText = i;
-    console.log('2');
+    getVarFunc();
 }
 
 
@@ -38,35 +43,12 @@ function getRandomColor(){
     return c;
 } 
   
-function getExerciseH(){
-    let entry = heiroglyphs[getRandomInt(0, heiroglyphs.length)];
-    if(entry.lesson >= fromm && entry.lesson<=too){
-        return entry;
-    } 
-    else{
-        return getExerciseH();
-    }
+function getExercise(){
+    let entry = variants[getRandomInt(0, variants.length)];
+   return entry;
 }
 
-function getExerciseK(){
-    let entry = keys[getRandomInt(0, keys.length)];
-    if(entry.lesson >= fromm && entry.lesson<=too){
-        return entry;
-    } 
-    else{
-        return getExerciseK();
-    }
-}
-function getExerciseA(){
-    let c = [heiroglyphs, keys][getRandomInt(0, 2)];
-    let entry = c[getRandomInt(0, c.length)];
-    if(entry.lesson >= fromm && entry.lesson<=too){
-        return entry;
-    } 
-    else{
-        return getExerciseA();
-    }
-}
+
 
 
 function rotate(){
@@ -78,63 +60,73 @@ function rotate(){
     }
 }
 
-
-
+function change(){
+        
+    let entry = getExercise();
+    front.textContent = entry.translation;
+    back.textContent = entry.hieroglyph + ' ' + entry.pinyin;
+    
+    
+    let f = document.getElementById('f');
+    let b = document.getElementById('b');
+    var color = cardColors[getRandomInt(0, 7)];
+    f.style.backgroundColor = color;
+    b.style.backgroundColor = color;
+}
 
 function setChoice0(){
-
-    function changeFunc(){
-        let entry = getExerciseA();
-        front.textContent = entry.translation;
-        back.textContent = entry.hieroglyph + ' ' + entry.pinyin;
+    function getVariants(){
+        variants = []
+        for (let i = 0; i < heiroglyphs.length; i++) {
+            if(heiroglyphs[i].lesson  >= fromm && heiroglyphs[i].lesson <= too){
+                variants = variants.concat(heiroglyphs[i])
+            }  
+        }
         
-        
-        let f = document.getElementById('f');
-        let b = document.getElementById('b');
-        var color = cardColors[getRandomInt(0, 7)];
-        f.style.backgroundColor = color;
-        b.style.backgroundColor = color;
+        for (let i = 0; i < keys.length; i++) {
+            if(keys[i].lesson  >= fromm && keys[i].lesson <= too){
+                variants = variants.concat(keys[i])
+            }  
+        }
     }
+    
+    
     let changeDropdown = document.getElementById("dropdownMenuButton");
     changeDropdown.innerText = "all hieroglyphs";
-    change = changeFunc;
+    getVarFunc = getVariants;
+    getVarFunc();
 }
 
 function setChoice1(){
-    function changeFunc(){
-        let entry = getExerciseK();
-        front.textContent = entry.translation;
-        back.textContent = entry.hieroglyph + ' ' + entry.pinyin;
-        
-        
-        let f = document.getElementById('f');
-        let b = document.getElementById('b');
-        var color = cardColors[getRandomInt(0, 7)];
-        f.style.backgroundColor = color;
-        b.style.backgroundColor = color;
+    function getVariants(){
+        variants = []
+        for (let i = 0; i < keys.length; i++) {
+            if(keys[i].lesson  >= fromm && keys[i].lesson <= too){
+                variants = variants.concat(keys[i])
+            }  
+        }
     }
+    
     let changeDropdown = document.getElementById("dropdownMenuButton");
     changeDropdown.innerText = "keys only";
-    change = changeFunc;
+    getVarFunc = getVariants;
+    getVarFunc();
 }
 
 
 function setChoice2(){
-    function changeFunc(){
-        let entry = getExerciseH();
-        front.textContent = entry.translation;
-        back.textContent = entry.hieroglyph + ' ' + entry.pinyin;
-        
-        
-        let f = document.getElementById('f');
-        let b = document.getElementById('b');
-        var color = cardColors[getRandomInt(0, 7)];
-        f.style.backgroundColor = color;
-        b.style.backgroundColor = color;
+    function getVariants(){
+        variants = []
+        for (let i = 0; i < heiroglyphs.length; i++) {
+            if(heiroglyphs[i].lesson  >= fromm && heiroglyphs[i].lesson <= too){
+                variants = variants.concat(heiroglyphs[i])
+            }  
+        }
     }
     let changeDropdown = document.getElementById("dropdownMenuButton");
     changeDropdown.innerText = "compounds only";
-    change = changeFunc;
+    getVarFunc = getVariants;
+    getVarFunc();
 }
 
 setChoice0();
@@ -147,8 +139,6 @@ function changeAction(){
     }else{
         change();
     }
-    
-    
 }
 
 function fillLessonDropdowns(n){
@@ -187,5 +177,5 @@ document.addEventListener( 'keyup', event => {
       });
 
 change();
-fillLessonDropdowns(4);
+fillLessonDropdowns(4); //увеличивать на 1 после каждого урока
 fromFunction(1);
