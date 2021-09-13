@@ -52,6 +52,7 @@ body{
       width: 100%;
       padding: 5px;
       backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
       position: absolute;
       top: 0;
       left: 0;
