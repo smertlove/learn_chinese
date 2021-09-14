@@ -67,8 +67,8 @@ function change(){
     back.textContent = entry.hieroglyph + ' ' + entry.pinyin;
     
     
-    let f = document.getElementById('f');
-    let b = document.getElementById('b');
+    let f = document.getElementById('front');
+    let b = document.getElementById('back');
     var color = cardColors[getRandomInt(0, 7)];
     f.style.backgroundColor = color;
     b.style.backgroundColor = color;

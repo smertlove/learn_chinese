@@ -47,6 +47,7 @@ body{
 
 .flipper.flip .flip-card {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .front,
@@ -78,9 +79,11 @@ body{
 }
 
 #front, #back {
-  margin-top: 40%;
-  margin-bottom: 40%;
+  /* margin-top: 40%;
+  margin-bottom: 40%; */
   font-size: 250%;
+  padding-top: 40%;
+  
 }
 
 .my-nav{
@@ -110,14 +113,14 @@ body{
   
 } */ 
 
-#f{
+/* #f{
   background-color: rgb(255, 255, 255);
   border-color: yellow;
 }
 #b{
   background-color: rgb(255, 255, 255);
   border-color: yellow;
-}
+} */
 
 
 .text-block{
