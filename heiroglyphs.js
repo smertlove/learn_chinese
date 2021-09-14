@@ -104,11 +104,59 @@ var heiroglyphs =	[{
     "pinyin": "Tā",
     "lesson": 3
 }
-,
+
+,
 {
     "hieroglyph": "都",
     "translation": "все, всё",
     "pinyin": "Dōu",
     "lesson": 3
+}
+
+,
+{
+    "hieroglyph": "这",
+    "translation": "это, этот",
+    "pinyin": "Zhè",
+    "lesson": 4
+}
+
+,
+{
+    "hieroglyph": "朋友",
+    "translation": "друг",
+    "pinyin": "Péngyǒu",
+    "lesson": 4
+}
+
+,
+{
+    "hieroglyph": "爸爸",
+    "translation": "папа",
+    "pinyin": "Bàba",
+    "lesson": 4
+}
+
+,
+{
+    "hieroglyph": "你们",
+    "translation": "они",
+    "pinyin": "Nǐmen",
+    "lesson": 4
+}
+
+,
+{
+    "hieroglyph": "是",
+    "translation": "есть, являться",
+    "pinyin": "Shì",
+    "lesson": 4
+}
+,
+{
+    "hieroglyph": "妈妈",
+    "translation": "мать",
+    "pinyin": "Māmā",
+    "lesson": 4
 }
 ]

@@ -8,7 +8,7 @@ var front = document.getElementById("front");
 var back = document.getElementById("back");
 
 var fromm = 1;
-var too = 4; // увеличивать на 1 после каждого урока
+var too = 5; // увеличивать на 1 после каждого урока
 
 
 var getVarFunc = null;
@@ -177,5 +177,5 @@ document.addEventListener( 'keyup', event => {
       });
 
 change();
-fillLessonDropdowns(4); //увеличивать на 1 после каждого урока
+fillLessonDropdowns(5); //увеличивать на 1 после каждого урока
 fromFunction(1);

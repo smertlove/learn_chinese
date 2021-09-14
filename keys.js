@@ -92,4 +92,19 @@ var keys = [
     "pinyin": "Mén",
     "lesson": 3
 }
+
+,
+{
+    "hieroglyph": "文",
+    "translation": "знак, письмена",
+    "pinyin": "Wén",
+    "lesson": 4
+}
+,
+{
+    "hieroglyph": "月",
+    "translation": "месяц",
+    "pinyin": "Yuè",
+    "lesson": 4
+}
 ]
