@@ -81,7 +81,7 @@ var keys = [
 {
     "hieroglyph": "阝",
     "translation": "город",
-    "pinyin": "gì",
+    "pinyin": "yì",
     "lesson": 3
 }
 

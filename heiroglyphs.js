@@ -140,7 +140,7 @@ var heiroglyphs =	[{
 ,
 {
     "hieroglyph": "你们",
-    "translation": "они",
+    "translation": "вы",
     "pinyin": "Nǐmen",
     "lesson": 4
 }
