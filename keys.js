@@ -119,8 +119,8 @@ var keys = [
 ,
 {
     "hieroglyph": "勺",
-    "translation": "белый",
-    "pinyin": "Ложка",
+    "translation": "столовая ложка, половник",
+    "pinyin": "Sháo",
     "lesson": 5
 }
 
