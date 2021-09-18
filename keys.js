@@ -100,11 +100,43 @@ var keys = [
     "pinyin": "Wén",
     "lesson": 4
 }
-,
+
+,
 {
     "hieroglyph": "月",
     "translation": "месяц",
     "pinyin": "Yuè",
     "lesson": 4
+}
+,
+{
+    "hieroglyph": "白",
+    "translation": "белый",
+    "pinyin": "Bái",
+    "lesson": 5
+}
+
+,
+{
+    "hieroglyph": "勺",
+    "translation": "белый",
+    "pinyin": "Ложка",
+    "lesson": 5
+}
+
+,
+{
+    "hieroglyph": "夫",
+    "translation": "муж",
+    "pinyin": "Fū",
+    "lesson": 5
+}
+
+,
+{
+    "hieroglyph": "大",
+    "translation": "Большой",
+    "pinyin": "Dà, Dài",
+    "lesson": 5
 }
 ]
