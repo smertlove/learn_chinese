@@ -104,11 +104,107 @@ var heiroglyphs =	[{
     "pinyin": "Tā",
     "lesson": 3
 }
-,
+
+,
 {
     "hieroglyph": "都",
     "translation": "все, всё",
     "pinyin": "Dōu",
     "lesson": 3
+}
+
+,
+{
+    "hieroglyph": "这",
+    "translation": "это, этот",
+    "pinyin": "Zhè",
+    "lesson": 4
+}
+
+,
+{
+    "hieroglyph": "朋友",
+    "translation": "друг",
+    "pinyin": "Péngyǒu",
+    "lesson": 4
+}
+
+,
+{
+    "hieroglyph": "爸爸",
+    "translation": "папа",
+    "pinyin": "Bàba",
+    "lesson": 4
+}
+
+,
+{
+    "hieroglyph": "你们",
+    "translation": "вы",
+    "pinyin": "Nǐmen",
+    "lesson": 4
+}
+
+,
+{
+    "hieroglyph": "是",
+    "translation": "есть, являться",
+    "pinyin": "Shì",
+    "lesson": 4
+}
+
+,
+{
+    "hieroglyph": "妈妈",
+    "translation": "мать",
+    "pinyin": "Māmā",
+    "lesson": 4
+}
+,
+{
+    "hieroglyph": "大夫",
+    "translation": "доктор",
+    "pinyin": "Dàfū",
+    "lesson": 5
+}
+
+,
+{
+    "hieroglyph": "的",
+    "translation": "служ. слово",
+    "pinyin": "De",
+    "lesson": 5
+}
+
+,
+{
+    "hieroglyph": "车",
+    "translation": "автомобиль, колесный транспорт",
+    "pinyin": "Chē",
+    "lesson": 5
+}
+
+,
+{
+    "hieroglyph": "那",
+    "translation": "тот, та, то, те",
+    "pinyin": "Nà",
+    "lesson": 5
+}
+
+,
+{
+    "hieroglyph": "书",
+    "translation": "Книга",
+    "pinyin": "Shū",
+    "lesson": 5
+}
+
+,
+{
+    "hieroglyph": "是",
+    "translation": "да, так, правильно",
+    "pinyin": "Shì",
+    "lesson": 5
 }
 ]

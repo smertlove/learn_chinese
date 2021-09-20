@@ -8,7 +8,7 @@ var front = document.getElementById("front");
 var back = document.getElementById("back");
 
 var fromm = 1;
-var too = 4; // увеличивать на 1 после каждого урока
+var too = 6; // увеличивать на 1 после каждого урока
 
 
 var getVarFunc = null;
@@ -67,8 +67,8 @@ function change(){
     back.textContent = entry.hieroglyph + ' ' + entry.pinyin;
     
     
-    let f = document.getElementById('f');
-    let b = document.getElementById('b');
+    let f = document.getElementById('front');
+    let b = document.getElementById('back');
     var color = cardColors[getRandomInt(0, 7)];
     f.style.backgroundColor = color;
     b.style.backgroundColor = color;
@@ -177,5 +177,6 @@ document.addEventListener( 'keyup', event => {
       });
 
 change();
-fillLessonDropdowns(4); //увеличивать на 1 после каждого урока
+fillLessonDropdowns(6); //увеличивать на 1 после каждого урока
 fromFunction(1);
+

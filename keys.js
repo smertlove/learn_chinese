@@ -81,7 +81,7 @@ var keys = [
 {
     "hieroglyph": "阝",
     "translation": "город",
-    "pinyin": "gì",
+    "pinyin": "yì",
     "lesson": 3
 }
 
@@ -91,5 +91,52 @@ var keys = [
     "translation": "ворота, дверь",
     "pinyin": "Mén",
     "lesson": 3
+}
+
+,
+{
+    "hieroglyph": "文",
+    "translation": "знак, письмена",
+    "pinyin": "Wén",
+    "lesson": 4
+}
+
+,
+{
+    "hieroglyph": "月",
+    "translation": "месяц",
+    "pinyin": "Yuè",
+    "lesson": 4
+}
+,
+{
+    "hieroglyph": "白",
+    "translation": "белый",
+    "pinyin": "Bái",
+    "lesson": 5
+}
+
+,
+{
+    "hieroglyph": "勺",
+    "translation": "столовая ложка, половник",
+    "pinyin": "Sháo",
+    "lesson": 5
+}
+
+,
+{
+    "hieroglyph": "夫",
+    "translation": "муж",
+    "pinyin": "Fū",
+    "lesson": 5
+}
+
+,
+{
+    "hieroglyph": "大",
+    "translation": "Большой",
+    "pinyin": "Dà, Dài",
+    "lesson": 5
 }
 ]
