@@ -164,7 +164,7 @@ var heiroglyphs =	[{
 {
     "hieroglyph": "大夫",
     "translation": "доктор",
-    "pinyin": "Dàfū",
+    "pinyin": "Dàifū",
     "lesson": 5
 }
 

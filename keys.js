@@ -166,7 +166,7 @@ var keys = [
 
 ,
 {
-    "hieroglyph": "主",
+    "hieroglyph": "住",
     "translation": "короткохвостка",
     "pinyin": "zhuī",
     "lesson": 6
@@ -179,7 +179,8 @@ var keys = [
     "pinyin": "Shuǐ",
     "lesson": 6
 }
-,
+
+,
 {
     "hieroglyph": "中",
     "translation": "середина",
