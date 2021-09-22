@@ -183,7 +183,7 @@ function changeAction(){
 function fillLessonDropdowns(n){
     let st = document.getElementById("lessonStart");
     let fn = document.getElementById("lessonFinish");
-    for (let i = 1; i < n; i++) {
+    for (let i = 1; i <= n; i++) {
 
         let link1 = document.createElement('a');
         let link2 = document.createElement('a');
@@ -208,14 +208,18 @@ document.addEventListener( 'keyup', event => {
         if( event.code === 'Enter' ){
             rotate();
         };
-      });
-document.addEventListener( 'keyup', event => {  
-        if( event.code === 'Space' ){
-            changeAction();
+        if (event.code === 'Space' ) {
+            changeAction(); 
         };
       });
+// document.addEventListener( 'keyup', event => {  
+//         if( ){
+            
+//         };
+//       });
 
 changeAction();
-fillLessonDropdowns(6); //увеличивать на 1 после каждого урока
-fromFunction(1);
+fillLessonDropdowns(too); //увеличивать на 1 после каждого урока
+fromFunction(fromm);
+toFunction(too);
 

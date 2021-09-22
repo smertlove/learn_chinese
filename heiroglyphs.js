@@ -207,4 +207,91 @@ var heiroglyphs =	[{
     "pinyin": "Shì",
     "lesson": 5
 }
+
+,
+{
+    "hieroglyph": "杖",
+    "translation": "стержень, жезл",
+    "pinyin": "zhàng",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "哪",
+    "translation": "который, какой",
+    "pinyin": "Nǎ",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "国",
+    "translation": "страна, государство",
+    "pinyin": "Guó",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "谁",
+    "translation": "Кто",
+    "pinyin": "Shéi",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "老师",
+    "translation": "учитель",
+    "pinyin": "Lǎoshī",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "汉",
+    "translation": "династия Хань",
+    "pinyin": "Hàn",
+    "lesson": 6
+}
+,
+{
+    "hieroglyph": "语",
+    "translation": "язык",
+    "pinyin": "Yǔ",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "汉语",
+    "translation": "китайский язык",
+    "pinyin": "hànyǔ",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "中国",
+    "translation": "Китай",
+    "pinyin": "Zhōngguó",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "老",
+    "translation": "Старый",
+    "pinyin": "Lǎo",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "师",
+    "translation": "учитель, мастер",
+    "pinyin": "Shī",
+    "lesson": 6
+}
 ]

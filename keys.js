@@ -139,4 +139,51 @@ var keys = [
     "pinyin": "Dà, Dài",
     "lesson": 5
 }
+
+,
+{
+    "hieroglyph": "王",
+    "translation": "император",
+    "pinyin": "Wáng",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "玉",
+    "translation": "нефрит",
+    "pinyin": "Yù",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "言",
+    "translation": "речь",
+    "pinyin": "Yán",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "主",
+    "translation": "короткохвостка",
+    "pinyin": "zhuī",
+    "lesson": 6
+}
+
+,
+{
+    "hieroglyph": "水",
+    "translation": "вода",
+    "pinyin": "Shuǐ",
+    "lesson": 6
+}
+,
+{
+    "hieroglyph": "中",
+    "translation": "середина",
+    "pinyin": "Zhōng",
+    "lesson": 6
+}
 ]
