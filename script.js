@@ -14,6 +14,8 @@ var too = 6; // увеличивать на 1 после каждого урок
 var getVarFunc = null;
 var variants = [];
 
+var curTrans = null;
+var curH = null;
 
 
 
@@ -48,30 +50,37 @@ function getExercise(){
    return entry;
 }
 
-
+function rotateAction(card, text){
+    card.innerText = text;
+}
 
 
 function rotate(){
     document.getElementById("flipper").classList.toggle("flip");
+    
+    
     if(rotated){
         rotated = false;
+        
+        setTimeout("rotateAction(document.getElementById('myCardContent') , curTrans)", 250)  ;
+
     }else{
         rotated = true;
+
+        setTimeout("rotateAction(document.getElementById('myCardContent') , curH)", 250)  ;
     }
 }
 
 function change(){
         
     let entry = getExercise();
-    front.textContent = entry.translation;
-    back.textContent = entry.hieroglyph + ' ' + entry.pinyin;
+
+    curTrans = entry.translation;
+    curH = entry.hieroglyph + ' ' + entry.pinyin;
     
-    
-    let f = document.getElementById('front');
-    let b = document.getElementById('back');
-    var color = cardColors[getRandomInt(0, 7)];
-    f.style.backgroundColor = color;
-    b.style.backgroundColor = color;
+    // var color = cardColors[getRandomInt(0, 7)];
+    // card.style.backgroundColor = color;
+
 }
 
 function setChoice0(){
@@ -131,15 +140,45 @@ function setChoice2(){
 
 setChoice0();
 
+
+
+
 function changeAction(){
+
     if(rotated){
         rotate();
-        rotated = false;
-        setTimeout("change()", 150)  ;
-    }else{
         change();
+        // setTimeout("change()", 700);
+
+        setTimeout("rotateAction(document.getElementById('myCardContent') , curTrans)", 250)  ;
+        
+    }else{
+        // setTimeout("change()", 700)  ;
+        change();
+        document.getElementById('myCardContent').innerText = curTrans;
     }
+    let color = cardColors[getRandomInt(0, 7)];
+    let c = document.getElementById('myCard');
+    c.style.backgroundColor = color;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function fillLessonDropdowns(n){
     let st = document.getElementById("lessonStart");
@@ -176,7 +215,7 @@ document.addEventListener( 'keyup', event => {
         };
       });
 
-change();
+changeAction();
 fillLessonDropdowns(6); //увеличивать на 1 после каждого урока
 fromFunction(1);
 

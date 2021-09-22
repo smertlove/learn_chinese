@@ -37,6 +37,9 @@ body{
   
   position: relative;
   background-color: #fff;
+  font-size: 250%;
+  padding-top: 40%;
+  
 }
 
 .flipper {
@@ -44,49 +47,20 @@ body{
   padding-right: 0px;
   margin-bottom: 10px;
   perspective: 1000px;
+  
+}
+
+#myCardContent{
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .flipper.flip .flip-card {
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
+  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
 }
 
-.front,
-    .back {
-      width: 100%;
-      padding: 5px;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-  /* front pane, placed above back */
-  .front {
-  z-index: 1;
-  /* for firefox 31 */
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-  height: 100%;
-  will-change: transform;
-}
-/* back, initially hidden pane */
-.back {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-  height: 100%;
-  will-change: transform;
-  z-index: 100;
-}
 
-#front, #back {
-  /* margin-top: 40%;
-  margin-bottom: 40%; */
-  font-size: 250%;
-  padding-top: 40%;
-  
-}
 
 .my-nav{
   /* background-color: rgba(167, 167, 167, 0.836); */
