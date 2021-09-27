@@ -166,7 +166,7 @@ var keys = [
 
 ,
 {
-    "hieroglyph": "住",
+    "hieroglyph": "隹",
     "translation": "короткохвостка",
     "pinyin": "zhuī",
     "lesson": 6
