@@ -293,5 +293,35 @@ var heiroglyphs =	[{
     "translation": "учитель, мастер",
     "pinyin": "Shī",
     "lesson": 6
+},
+{
+    "hieroglyph": "什么",
+    "translation": "что, какой",
+    "pinyin": "Shénme",
+    "lesson": 7
+},
+{
+    "hieroglyph": "地图",
+    "translation": "географическая карта",
+    "pinyin": "Dìtú",
+    "lesson": 7
+},
+{
+    "hieroglyph": "地",
+    "translation": "земля, почва",
+    "pinyin": "Dì",
+    "lesson": 7
+},
+{
+    "hieroglyph": "图",
+    "translation": "схема, иллюстрация, рисунок",
+    "pinyin": "Tú",
+    "lesson": 7
+},
+{
+    "hieroglyph": "看",
+    "translation": "читать, смотреть, думать, понимать",
+    "pinyin": "Kàn",
+    "lesson": 7
 }
 ]

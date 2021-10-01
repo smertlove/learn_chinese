@@ -186,5 +186,23 @@ var keys = [
     "translation": "середина",
     "pinyin": "Zhōng",
     "lesson": 6
+},
+{
+    "hieroglyph": "又",
+    "translation": "ладонь",
+    "pinyin": "Yòu",
+    "lesson": 6
+},
+{
+    "hieroglyph": "手",
+    "translation": "рука",
+    "pinyin": "Shǒu",
+    "lesson": 7
+},
+{
+    "hieroglyph": "目",
+    "translation": "глаз",
+    "pinyin": "Mù",
+    "lesson": 7
 }
 ]

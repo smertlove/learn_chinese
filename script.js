@@ -8,7 +8,7 @@ var front = document.getElementById("front");
 var back = document.getElementById("back");
 
 var fromm = 1;
-var too = 6; // увеличивать на 1 после каждого урока
+var too = 7; // увеличивать на 1 после каждого урока
 
 
 var getVarFunc = null;
@@ -74,9 +74,13 @@ function rotate(){
 function change(){
         
     let entry = getExercise();
-
-    curTrans = entry.translation;
-    curH = entry.hieroglyph + ' ' + entry.pinyin;
+    try {
+        curTrans = entry.translation;
+        curH = entry.hieroglyph + ' ' + entry.pinyin;
+    } catch (error) {
+       alert('Невозможно найти словарную статью,\nудовлетворяющую требованиям.\nИзмените требования.') 
+    }
+    
     
     // var color = cardColors[getRandomInt(0, 7)];
     // card.style.backgroundColor = color;
@@ -95,6 +99,12 @@ function setChoice0(){
         for (let i = 0; i < keys.length; i++) {
             if(keys[i].lesson  >= fromm && keys[i].lesson <= too){
                 variants = variants.concat(keys[i])
+            }  
+        }
+        
+        for (let i = 0; i < additionals.length; i++) {
+            if(additionals[i].lesson  >= fromm && additionals[i].lesson <= too){
+                variants = variants.concat(additionals[i])
             }  
         }
     }
@@ -134,6 +144,21 @@ function setChoice2(){
     }
     let changeDropdown = document.getElementById("dropdownMenuButton");
     changeDropdown.innerText = "compounds only";
+    getVarFunc = getVariants;
+    getVarFunc();
+}
+
+function setChoice3(){
+    function getVariants(){
+        variants = []
+        for (let i = 0; i < additionals.length; i++) {
+            if(additionals[i].lesson  >= fromm && additionals[i].lesson <= too){
+                variants = variants.concat(additionals[i])
+            }  
+        }
+    }
+    let changeDropdown = document.getElementById("dropdownMenuButton");
+    changeDropdown.innerText = "pinyin only";
     getVarFunc = getVariants;
     getVarFunc();
 }
