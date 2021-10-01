@@ -78,7 +78,9 @@ function change(){
         curTrans = entry.translation;
         curH = entry.hieroglyph + ' ' + entry.pinyin;
     } catch (error) {
-       alert('Невозможно найти словарную статью,\nудовлетворяющую требованиям.\nИзмените требования.') 
+        if (error instanceof TypeError) {
+            alert('Невозможно найти словарную статью,\nудовлетворяющую требованиям.\nИзмените требования.') 
+          } 
     }
     
     
