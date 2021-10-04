@@ -69,14 +69,14 @@ function rotate(){
         
         setTimeout("rotateAction(document.getElementById('myCardContent') , curTrans)", 250)  ;
         if(curTrans.length > 30){
-            setTimeout("changeFont(document.getElementById('myCardContent'), '190%')", 90);             
+            setTimeout("changeFont(document.getElementById('myCardContent'), '190%')", 250);             
          }
 
     }else{
         rotated = true;
         
         setTimeout("rotateAction(document.getElementById('myCardContent') , curH)", 250)  ;
-        setTimeout("changeFont(document.getElementById('myCardContent'), '250%')", 90);
+        setTimeout("changeFont(document.getElementById('myCardContent'), '250%')", 250);
     }
 }
 
@@ -184,7 +184,7 @@ function changeAction(){
     let cont = document.getElementById('myCardContent')
     let to = 0;
     if (rotated){
-        to = 90;
+        to = 25;
     }
     if(rotated){
         rotate();
