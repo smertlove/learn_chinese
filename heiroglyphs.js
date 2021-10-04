@@ -323,5 +323,71 @@ var heiroglyphs =	[{
     "translation": "читать, смотреть, думать, понимать",
     "pinyin": "Kàn",
     "lesson": 7
+},
+{
+    "hieroglyph": "请",
+    "translation": "просить, пожалуйста, приглашать",
+    "pinyin": "qĭng",
+    "lesson": 8
+},
+{
+    "hieroglyph": "喝",
+    "translation": "пить",
+    "pinyin": "hē",
+    "lesson": 8
+},
+{
+    "hieroglyph": "茶",
+    "translation": "чай",
+    "pinyin": "chá",
+    "lesson": 8
+},
+{
+    "hieroglyph": "您",
+    "translation": "Вы (уважит)",
+    "pinyin": "nín",
+    "lesson": 8
+},
+{
+    "hieroglyph": "进",
+    "translation": "входить",
+    "pinyin": "jìn",
+    "lesson": 8
+},
+{
+    "hieroglyph": "欢迎",
+    "translation": "приветствовать",
+    "pinyin": "huányíng",
+    "lesson": 8
+},
+{
+    "hieroglyph": "谢谢",
+    "translation": "спасибо",
+    "pinyin": "xièxiè",
+    "lesson": 8
+},
+{
+    "hieroglyph": "客气",
+    "translation": "вежливый",
+    "pinyin": "kèqi",
+    "lesson": 8
+},
+{
+    "hieroglyph": "吸烟",
+    "translation": "курить",
+    "pinyin": "xīyān",
+    "lesson": 8
+},
+{
+    "hieroglyph": "吸",
+    "translation": "вдыхать",
+    "pinyin": "xī",
+    "lesson": 8
+},
+{
+    "hieroglyph": "烟",
+    "translation": "дым",
+    "pinyin": "yān",
+    "lesson": 8
 }
 ]

@@ -37,7 +37,7 @@ body{
   
   position: relative;
   background-color: #fff;
-  font-size: 230%;
+  
   text-align: center;
   padding-top: 35%;
   
@@ -54,6 +54,7 @@ body{
 #myCardContent{
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  font-size: 230%;
 }
 
 .flipper.flip .flip-card {

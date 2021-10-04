@@ -8,7 +8,7 @@ var front = document.getElementById("front");
 var back = document.getElementById("back");
 
 var fromm = 1;
-var too = 7; // увеличивать на 1 после каждого урока
+var too = 8; // увеличивать на 1 после каждого урока
 
 
 var getVarFunc = null;
@@ -55,19 +55,28 @@ function rotateAction(card, text){
 }
 
 
+function changeFont(cont, n){
+    cont.style.fontSize = n; 
+    
+}
+
+
+
 function rotate(){
-    document.getElementById("flipper").classList.toggle("flip");
-    
-    
+    document.getElementById("flipper").classList.toggle("flip");   
     if(rotated){
         rotated = false;
         
         setTimeout("rotateAction(document.getElementById('myCardContent') , curTrans)", 250)  ;
+        if(curTrans.length > 30){
+            setTimeout("changeFont(document.getElementById('myCardContent'), '190%')", 90);             
+         }
 
     }else{
         rotated = true;
-
+        
         setTimeout("rotateAction(document.getElementById('myCardContent') , curH)", 250)  ;
+        setTimeout("changeFont(document.getElementById('myCardContent'), '250%')", 90);
     }
 }
 
@@ -77,6 +86,7 @@ function change(){
     try {
         curTrans = entry.translation;
         curH = entry.hieroglyph + ' ' + entry.pinyin;
+        
     } catch (error) {
         if (error instanceof TypeError) {
             alert('Невозможно найти словарную статью,\nудовлетворяющую требованиям.\nИзмените требования.') 
@@ -171,7 +181,11 @@ setChoice0();
 
 
 function changeAction(){
-
+    let cont = document.getElementById('myCardContent')
+    let to = 0;
+    if (rotated){
+        to = 90;
+    }
     if(rotated){
         rotate();
         change();
@@ -182,8 +196,15 @@ function changeAction(){
     }else{
         // setTimeout("change()", 700)  ;
         change();
-        document.getElementById('myCardContent').innerText = curTrans;
+        cont.innerText = curTrans;
     }
+
+    if(curTrans.length > 30){
+        setTimeout("changeFont(document.getElementById('myCardContent'), '190%')", to); 
+    }else{
+        setTimeout("changeFont(document.getElementById('myCardContent'), '250%')", to);
+    }
+    
     let color = cardColors[getRandomInt(0, 7)];
     let c = document.getElementById('myCard');
     c.style.backgroundColor = color;
@@ -246,7 +267,7 @@ document.addEventListener( 'keyup', event => {
 //       });
 
 changeAction();
-fillLessonDropdowns(too); //увеличивать на 1 после каждого урока
+fillLessonDropdowns(too);
 fromFunction(fromm);
 toFunction(too);
 

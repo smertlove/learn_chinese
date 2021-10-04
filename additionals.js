@@ -108,5 +108,35 @@ var additionals = [{
     "translation": "Океания",
     "pinyin": "Dàyángzhōu",
     "lesson": 7
+},{
+    "hieroglyph": "??",
+    "translation": "кофе",
+    "pinyin": "kāfēi",
+    "lesson": 8
+},{
+    "hieroglyph": "??",
+    "translation": "пиво",
+    "pinyin": "píjiŭ",
+    "lesson": 8
+},{
+    "hieroglyph": "??",
+    "translation": "молоко",
+    "pinyin": "niúnăi",
+    "lesson": 8
+},{
+    "hieroglyph": "??",
+    "translation": "господин",
+    "pinyin": "xiānsheng",
+    "lesson": 8
+},{
+    "hieroglyph": "??",
+    "translation": "госпожа",
+    "pinyin": "tàitai",
+    "lesson": 8
+},{
+    "hieroglyph": "水",
+    "translation": "вода",
+    "pinyin": "shuĭ",
+    "lesson": 8
 }
 ]

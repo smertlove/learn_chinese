@@ -188,6 +188,12 @@ var keys = [
     "lesson": 6
 },
 {
+    "hieroglyph": "囗",
+    "translation": "ограда",
+    "pinyin": "<i>no pinyin</i>",
+    "lesson": 6
+},
+{
     "hieroglyph": "又",
     "translation": "ладонь",
     "pinyin": "Yòu",
@@ -204,5 +210,71 @@ var keys = [
     "translation": "глаз",
     "pinyin": "Mù",
     "lesson": 7
+},
+{
+    "hieroglyph": "青",
+    "translation": "зеленый, синий, черный (поэтич)",
+    "pinyin": "qīng",
+    "lesson": 8
+},
+{
+    "hieroglyph": "日",
+    "translation": "говорить",
+    "pinyin": "yuē",
+    "lesson": 8
+},
+{
+    "hieroglyph": "艸",
+    "translation": "трава",
+    "pinyin": "căo",
+    "lesson": 8
+},
+{
+    "hieroglyph": "木",
+    "translation": "дерево",
+    "pinyin": "mù",
+    "lesson": 8
+},
+{
+    "hieroglyph": "井",
+    "translation": "колодец",
+    "pinyin": "jĭng",
+    "lesson": 8
+},
+{
+    "hieroglyph": "欠",
+    "translation": "недоставать, нехватать",
+    "pinyin": "qiàn",
+    "lesson": 8
+},
+{
+    "hieroglyph": "寸",
+    "translation": "вершок",
+    "pinyin": "cūn",
+    "lesson": 8
+},
+{
+    "hieroglyph": "气",
+    "translation": "пар, дым, газ",
+    "pinyin": "qì",
+    "lesson": 8
+},
+{
+    "hieroglyph": "宀",
+    "translation": "крыша с точкой",
+    "pinyin": "<i>no pinyin</i>",
+    "lesson": 8
+},
+{
+    "hieroglyph": "火",
+    "translation": "огонь",
+    "pinyin": "huŏ",
+    "lesson": 8
+},
+{
+    "hieroglyph": "身",
+    "translation": "тело",
+    "pinyin": "shēn",
+    "lesson": 8
 }
 ]
