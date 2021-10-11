@@ -389,5 +389,104 @@ var heiroglyphs =	[{
     "translation": "дым",
     "pinyin": "yān",
     "lesson": 8
-}
+},
+{
+    "hieroglyph":"贵姓",
+    "translation":"как Ваша фамилия?",
+    "pinyin":"guì xìng",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"贵",
+    "translation":"дорогой, знатный",
+    "pinyin":"guì",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"姓",
+    "translation": "называться по фамилии, фамилия",
+    "pinyin":"xìng",
+    "lesson": 9
+    } ,
+  
+    {
+    "hieroglyph":"请问",
+    "translation":"позвольте спросить",
+    "pinyin":"qĭng wèn",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"问",
+    "translation":"спрашивать",
+    "pinyin":"wèn",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"留学生",
+    "translation":"студент-иностранец",
+    "pinyin":"liúxuéshēng",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"叫",
+    "translation":"звать, называть, называться, именоваться",
+    "pinyin":"jiào",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"外语",
+    "translation":"иностранный язык",
+    "pinyin":"wàiyŭ",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"外",
+    "translation":"внешний, иностранный",
+    "pinyin":"wài",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"学生",
+    "translation":"ученик, школьник, студент",
+    "pinyin":"xuésheng",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"学习",
+    "translation":"учиться, изучать (что угодно или что-то конкретное)",
+    "pinyin":"xuéxí",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"学院",
+    "translation":"институт",
+    "pinyin":"xuéyuàn",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"学",
+    "translation":"учиться, изучать (что-то конкретное)",
+    "pinyin":"xué",
+    "lesson": 9
+    } ,
+     
+    
+    {
+    "hieroglyph":"习",
+    "translation":"повторять изученное",
+    "pinyin":"xí",
+    "lesson": 9
+    },
+     {
+        "hieroglyph":"院",
+        "translation":"двор",
+        "pinyin":"yuàn",
+        "lesson": 9
+        } ,
+        {
+        "hieroglyph":"留",
+        "translation":"оставлять",
+        "pinyin":"liú",
+        "lesson": 9
+        } 
 ]

@@ -138,5 +138,35 @@ var additionals = [{
     "translation": "вода",
     "pinyin": "shuĭ",
     "lesson": 8
-}
+},
+{
+    "hieroglyph":"??",
+    "translation":"Дин Юнь (фамилия)",
+    "pinyin":"Dīng Yún",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"??",
+    "translation":"госпожа, дама",
+    "pinyin":"nǚshì",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"??",
+    "translation":"Англия",
+    "pinyin":"Yīngguó",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"??",
+    "translation":"Северная Корея",
+    "pinyin":"Cháoxiăn",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"??",
+    "translation":"леди, девушка легкого поведения",
+    "pinyin":"xiǎojie",
+    "lesson": 9
+    }
 ]

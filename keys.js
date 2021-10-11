@@ -276,5 +276,49 @@ var keys = [
     "translation": "тело",
     "pinyin": "shēn",
     "lesson": 8
-}
+},
+{
+    "hieroglyph":"贝",
+    "translation":"раковина",
+    "pinyin":"bèi",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"生",
+    "translation":"рожать, сырой, свежий",
+    "pinyin":"shēng",
+    "lesson": 9
+    } ,
+   
+    {
+    "hieroglyph":"刀",
+    "translation":"нож",
+    "pinyin":"dāo",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"田",
+    "translation":"поле",
+    "pinyin":"tián",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"夕",
+    "translation":"вечер",
+    "pinyin":"xī",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"卜",
+    "translation":"гадать",
+    "pinyin":"bŭ",
+    "lesson": 9
+    } ,
+    {
+    "hieroglyph":"β",
+    "translation":"гора, холм",
+    "pinyin":"fù",
+    "lesson": 9
+    } 
+    
 ]
