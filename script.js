@@ -8,7 +8,7 @@ var front = document.getElementById("front");
 var back = document.getElementById("back");
 
 var fromm = 1;
-var too = 8; // увеличивать на 1 после каждого урока
+var too = 9; // увеличивать на 1 после каждого урока
 
 
 var getVarFunc = null;
