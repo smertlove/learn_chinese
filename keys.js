@@ -319,6 +319,21 @@ var keys = [
     "translation":"гора, холм",
     "pinyin":"fù",
     "lesson": 9
-    } 
+    } ,{
+        "hieroglyph":"百",
+        "translation":"băi",
+        "pinyin":"100",
+        "lesson": 10
+        },{
+            "hieroglyph":"舌",
+            "translation":"shé",
+            "pinyin":"язык (ч тела)",
+            "lesson": 10
+            },{
+                "hieroglyph":"云",
+                "translation":"yún",
+                "pinyin":"облако",
+                "lesson": 10
+                }
     
 ]

@@ -168,5 +168,20 @@ var additionals = [{
     "translation":"леди, девушка легкого поведения",
     "pinyin":"xiǎojie",
     "lesson": 9
-    }
+},{
+"hieroglyph":"??",
+"translation":"yīyuàn",
+"pinyin":"больница, лечебница",
+"lesson": 10
+},{
+"hieroglyph":"??",
+"translation":"zhèr",
+"pinyin":"здесь, сюда",
+"lesson": 10
+},{
+"hieroglyph":"??",
+"translation":"nàr",
+"pinyin":"там, туда",
+"lesson": 10
+}
 ]

@@ -488,5 +488,112 @@ var heiroglyphs =	[{
         "translation":"оставлять",
         "pinyin":"liú",
         "lesson": 9
-        } 
+        },
+{
+    "hieroglyph":"O",
+    "translation":"0",
+    "pinyin":"líng",
+    "lesson": 10
+},
+ {
+"hieroglyph":"一",
+"translation":"1",
+"pinyin":"yī",
+"lesson": 10
+},{
+"hieroglyph":"二",
+"translation":"2",
+"pinyin":"èr",
+"lesson": 10
+},
+{
+"hieroglyph":"三",
+"translation":"3",
+"pinyin":"sān",
+"lesson": 10
+},
+{
+"hieroglyph":"四",
+"translation":"4",
+"pinyin":"sì",
+"lesson": 10
+},
+{
+"hieroglyph":"五",
+"translation":"5",
+"pinyin":"wŭ",
+"lesson": 10
+},
+{
+"hieroglyph":"在",
+"translation":"находиться, в, на",
+"pinyin":"zài",
+"lesson": 10
+},
+{
+"hieroglyph":"坐",
+"translation":"сидеть, садиться",
+"pinyin":"zuò",
+"lesson": 10
+},
+{
+"hieroglyph":"哪儿",
+"translation":"где, куда",
+"pinyin":"năr",
+"lesson": 10
+},
+{
+"hieroglyph":"宿舍",
+"translation":"общежитие, комната в общежитии",
+"pinyin":"sùshè",
+"lesson": 10
+},
+{
+"hieroglyph":"住",
+"translation":"жить, проживать",
+"pinyin":"zhù",
+"lesson": 10
+},
+{
+"hieroglyph":"多少",
+"translation":"сколько",
+"pinyin":"duōshao",
+"lesson": 10
+},
+{
+"hieroglyph":"多",
+"translation":"много",
+"pinyin":"duō",
+"lesson": 10
+},
+{
+"hieroglyph":"少",
+"translation":"мало",
+"pinyin":"shăo",
+"lesson": 10
+},{
+"hieroglyph":"号",
+"translation":"номер, число (дата)",
+"pinyin":"hào",
+"lesson": 10
+},{
+"hieroglyph":"层",
+"translation":"этаж, слой, ярус",
+"pinyin":"céng",
+"lesson": 10
+},{
+"hieroglyph":"同志",
+"translation":"товарищ, гей",
+"pinyin":"tóngzhì",
+"lesson": 10
+},{
+"hieroglyph":"厕所",
+"translation":"cèsuŏ",
+"pinyin":"",
+"lesson": 10
+}
+        
+    
+    
+
 ]
