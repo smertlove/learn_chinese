@@ -588,8 +588,8 @@ var heiroglyphs =	[{
 "lesson": 10
 },{
 "hieroglyph":"厕所",
-"translation":"cèsuŏ",
-"pinyin":"",
+"translation":"туалет",
+"pinyin":"cèsuŏ",
 "lesson": 10
 }
         

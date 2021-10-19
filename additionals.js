@@ -170,18 +170,18 @@ var additionals = [{
     "lesson": 9
 },{
 "hieroglyph":"??",
-"translation":"yīyuàn",
-"pinyin":"больница, лечебница",
+"translation":"больница, лечебница",
+"pinyin":"yīyuàn",
 "lesson": 10
 },{
 "hieroglyph":"??",
-"translation":"zhèr",
-"pinyin":"здесь, сюда",
+"translation":"здесь, сюда",
+"pinyin":"zhèr",
 "lesson": 10
 },{
 "hieroglyph":"??",
-"translation":"nàr",
-"pinyin":"там, туда",
+"translation":"там, туда",
+"pinyin":"nàr",
 "lesson": 10
 }
 ]

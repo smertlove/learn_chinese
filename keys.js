@@ -321,18 +321,18 @@ var keys = [
     "lesson": 9
     } ,{
         "hieroglyph":"百",
-        "translation":"băi",
-        "pinyin":"100",
+        "translation":"100",
+        "pinyin":"băi",
         "lesson": 10
         },{
             "hieroglyph":"舌",
-            "translation":"shé",
-            "pinyin":"язык (ч тела)",
+            "translation":"язык (ч тела)",
+            "pinyin":"shé",
             "lesson": 10
             },{
                 "hieroglyph":"云",
-                "translation":"yún",
-                "pinyin":"облако",
+                "translation":"облако",
+                "pinyin":"yún",
                 "lesson": 10
                 }
     
