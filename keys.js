@@ -320,20 +320,25 @@ var keys = [
     "pinyin":"fù",
     "lesson": 9
     } ,{
-        "hieroglyph":"百",
-        "translation":"100",
-        "pinyin":"băi",
-        "lesson": 10
-        },{
-            "hieroglyph":"舌",
-            "translation":"язык (ч тела)",
-            "pinyin":"shé",
-            "lesson": 10
-            },{
-                "hieroglyph":"云",
-                "translation":"облако",
-                "pinyin":"yún",
-                "lesson": 10
-                }
+"hieroglyph":"百",
+"translation":"100",
+"pinyin":"băi",
+"lesson": 10
+},{
+"hieroglyph":"舌",
+"translation":"язык (ч тела)",
+"pinyin":"shé",
+"lesson": 10
+},{
+"hieroglyph":"云",
+"translation":"облако",
+"pinyin":"yún",
+"lesson": 10
+},	{
+	"hieroglyph":"巳",
+	"translation":"печать, власть",
+	"pinyin":"jié",
+	"lesson": 11
+	}
     
 ]

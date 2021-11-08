@@ -183,5 +183,31 @@ var additionals = [{
 "translation":"там, туда",
 "pinyin":"nàr",
 "lesson": 10
-}
+},	{
+	"hieroglyph":"??",
+	"translation":"текстовой журнал",
+	"pinyin":"zázhì",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"??",
+	"translation":"телефон",
+	"pinyin":"diànhuà",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"??",
+	"translation":"тетрадь",
+	"pinyin":"bĕnzi",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"??",
+	"translation":"зонтик",
+	"pinyin":"yŭsăn",
+	"lesson": 11
+	}
 ]

@@ -591,9 +591,121 @@ var heiroglyphs =	[{
 "translation":"туалет",
 "pinyin":"cèsuŏ",
 "lesson": 10
-}
-        
-    
-    
+},
+{
+	"hieroglyph":"还",
+	"translation":"вернуть, возвращать, отдавать обратно",
+	"pinyin":"huán",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"画报",
+	"translation":"иллюстрированный журнал",
+	"pinyin":"huàbào",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"画",
+	"translation":"картина, рисунок, рисовать, изображать",
+	"pinyin":"huà",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"报",
+	"translation":"газета",
+	"pinyin":"bào",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"词典",
+	"translation":"словарь",
+	"pinyin":"cídiăn",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"词",
+	"translation":"слово",
+	"pinyin":"cí",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"典",
+	"translation":"канон, сборник",
+	"pinyin":"diăn",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"现在",
+	"translation":"теперь, сейчас, в настоящее время",
+	"pinyin":"xiànzài",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"用",
+	"translation":"употреблять, применять, использовать, пользоваться",
+	"pinyin":"yòng",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"一下儿",
+	"translation":"разок, немного, недолго",
+	"pinyin":"yíxiàr",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"再见",
+	"translation":'"до свидания", "до встречи", "пока" (ещё раз увидеться)',
+	"pinyin":"zàijiàn",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"六",
+	"translation":"шесть",
+	"pinyin":"liù",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"七",
+	"translation":"семь",
+	"pinyin":"qī",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"八",
+	"translation":"восемь",
+	"pinyin":"bā",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"九",
+	"translation":"девять",
+	"pinyin":"jiŭ",
+	"lesson": 11
+	},
+
+		{
+	"hieroglyph":"十",
+	"translation":"десять",
+	"pinyin":"shí",
+	"lesson": 11
+	}
+
+	
+
+	
 
 ]
