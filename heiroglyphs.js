@@ -702,10 +702,110 @@ var heiroglyphs =	[{
 	"translation":"десять",
 	"pinyin":"shí",
 	"lesson": 11
-	}
-
-	
-
-	
+	},
+    {
+        "hieroglyph":"先生",
+        "translation":"мистер, господин",
+        "pinyin":"xiānsheng",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"先",
+        "translation":"сначала, сперва, предок, раньше",
+        "pinyin":"xiān",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"认识",
+        "translation":"быть знакомым, знакомиться, опознавать, узнавать",
+        "pinyin":"rènshi",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"认",
+        "translation":"знать, узнавать",
+        "pinyin":"rèn",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"识",
+        "translation":"знать",
+        "pinyin":"shi",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"俄语",
+        "translation":"русский язык",
+        "pinyin":"éyŭ",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"英语",
+        "translation":"английский язык",
+        "pinyin":"yīngyŭ",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"英",
+        "translation":"цветение, цветок",
+        "pinyin":"yīng",
+        "lesson": 12
+    }
+    ,
+	{
+        "hieroglyph":"常",
+        "translation":"часто, всегда",
+        "pinyin":"cháng",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"去",
+        "translation":"идти, ехать, направляться",
+        "pinyin":"qù",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"俄罗斯",
+        "translation":"Россия",
+        "pinyin":"Éluósī",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"法国",
+        "translation":"Франция",
+        "pinyin":"Făguó",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"女朋友",
+        "translation":"девушка",
+        "pinyin":"Nǚ péngyǒu",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"男朋友",
+        "translation":"парень",
+        "pinyin":"Nán péngyǒu",
+        "lesson": 12
+    }
+    ,
+    {
+        "hieroglyph":"男",
+        "translation":"мужчина",
+        "pinyin":"Nán",
+        "lesson": 12
+    }
 
 ]
