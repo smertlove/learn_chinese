@@ -289,7 +289,7 @@ var keys = [
     "pinyin":"shēng",
     "lesson": 9
     } ,
-   
+
     {
     "hieroglyph":"刀",
     "translation":"нож",
@@ -340,5 +340,38 @@ var keys = [
 	"pinyin":"jié",
 	"lesson": 11
 	}
-    
+  ,
+  {
+          "hieroglyph": "广",
+          "translation": "навес"
+          "pinyin": "",
+          "lesson": 13
+  },
+  {
+          "hieroglyph": "力",
+          "translation": "сила"
+          "pinyin": "lì",
+          "lesson": 13
+  }
+  ,
+  {
+          "hieroglyph": "亇",
+          "translation": "бамбук"
+          "pinyin": "zhú",
+          "lesson": 13
+  }
+  ,
+  {
+          "hieroglyph": "毛",
+          "translation": "шерсть, волосы, оперение"
+          "pinyin": "máo",
+          "lesson": 13
+  }
+  ,
+  {
+          "hieroglyph": "禾",
+          "translation": "злак"
+          "pinyin": "hé",
+          "lesson": 13
+  }
 ]

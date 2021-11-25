@@ -8,7 +8,7 @@ var front = document.getElementById("front");
 var back = document.getElementById("back");
 
 var fromm = 1;
-var too = 12; // увеличивать на 1 после каждого урока
+var too = 13; // увеличивать на 1 после каждого урока
 
 
 var getVarFunc = null;
@@ -39,12 +39,12 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
   }
 
-    
+
 function getRandomColor(){
     let c = getRandomInt(0, 6);
     return c;
-} 
-  
+}
+
 function getExercise(){
     let entry = variants[getRandomInt(0, variants.length)];
    return entry;
@@ -56,44 +56,44 @@ function rotateAction(card, text){
 
 
 function changeFont(cont, n){
-    cont.style.fontSize = n; 
-    
+    cont.style.fontSize = n;
+
 }
 
 
 
 function rotate(){
-    document.getElementById("flipper").classList.toggle("flip");   
+    document.getElementById("flipper").classList.toggle("flip");
     if(rotated){
         rotated = false;
-        
+
         setTimeout("rotateAction(document.getElementById('myCardContent') , curTrans)", 250)  ;
         if(curTrans.length > 30){
-            setTimeout("changeFont(document.getElementById('myCardContent'), '190%')", 250);             
+            setTimeout("changeFont(document.getElementById('myCardContent'), '190%')", 250);
          }
 
     }else{
         rotated = true;
-        
+
         setTimeout("rotateAction(document.getElementById('myCardContent') , curH)", 250)  ;
         setTimeout("changeFont(document.getElementById('myCardContent'), '250%')", 250);
     }
 }
 
 function change(){
-        
+
     let entry = getExercise();
     try {
         curTrans = entry.translation;
         curH = entry.hieroglyph + ' ' + entry.pinyin;
-        
+
     } catch (error) {
         if (error instanceof TypeError) {
-            alert('Невозможно найти словарную статью,\nудовлетворяющую требованиям.\nИзмените требования.') 
-          } 
+            alert('Невозможно найти словарную статью,\nудовлетворяющую требованиям.\nИзмените требования.')
+          }
     }
-    
-    
+
+
     // var color = cardColors[getRandomInt(0, 7)];
     // card.style.backgroundColor = color;
 
@@ -105,23 +105,23 @@ function setChoice0(){
         for (let i = 0; i < heiroglyphs.length; i++) {
             if(heiroglyphs[i].lesson  >= fromm && heiroglyphs[i].lesson <= too){
                 variants = variants.concat(heiroglyphs[i])
-            }  
+            }
         }
-        
+
         for (let i = 0; i < keys.length; i++) {
             if(keys[i].lesson  >= fromm && keys[i].lesson <= too){
                 variants = variants.concat(keys[i])
-            }  
+            }
         }
-        
+
         for (let i = 0; i < additionals.length; i++) {
             if(additionals[i].lesson  >= fromm && additionals[i].lesson <= too){
                 variants = variants.concat(additionals[i])
-            }  
+            }
         }
     }
-    
-    
+
+
     let changeDropdown = document.getElementById("dropdownMenuButton");
     changeDropdown.innerText = "all hieroglyphs";
     getVarFunc = getVariants;
@@ -134,10 +134,10 @@ function setChoice1(){
         for (let i = 0; i < keys.length; i++) {
             if(keys[i].lesson  >= fromm && keys[i].lesson <= too){
                 variants = variants.concat(keys[i])
-            }  
+            }
         }
     }
-    
+
     let changeDropdown = document.getElementById("dropdownMenuButton");
     changeDropdown.innerText = "keys only";
     getVarFunc = getVariants;
@@ -151,7 +151,7 @@ function setChoice2(){
         for (let i = 0; i < heiroglyphs.length; i++) {
             if(heiroglyphs[i].lesson  >= fromm && heiroglyphs[i].lesson <= too){
                 variants = variants.concat(heiroglyphs[i])
-            }  
+            }
         }
     }
     let changeDropdown = document.getElementById("dropdownMenuButton");
@@ -166,7 +166,7 @@ function setChoice3(){
         for (let i = 0; i < additionals.length; i++) {
             if(additionals[i].lesson  >= fromm && additionals[i].lesson <= too){
                 variants = variants.concat(additionals[i])
-            }  
+            }
         }
     }
     let changeDropdown = document.getElementById("dropdownMenuButton");
@@ -192,7 +192,7 @@ function changeAction(){
         // setTimeout("change()", 700);
 
         setTimeout("rotateAction(document.getElementById('myCardContent') , curTrans)", 250)  ;
-        
+
     }else{
         // setTimeout("change()", 700)  ;
         change();
@@ -200,11 +200,11 @@ function changeAction(){
     }
 
     if(curTrans.length > 30){
-        setTimeout("changeFont(document.getElementById('myCardContent'), '190%')", to); 
+        setTimeout("changeFont(document.getElementById('myCardContent'), '190%')", to);
     }else{
         setTimeout("changeFont(document.getElementById('myCardContent'), '250%')", to);
     }
-    
+
     let color = cardColors[getRandomInt(0, 7)];
     let c = document.getElementById('myCard');
     c.style.backgroundColor = color;
@@ -245,24 +245,24 @@ function fillLessonDropdowns(n){
         link2.onclick = function(){toFunction(i)};
         st.appendChild(link1);
         fn.appendChild(link2);
-        
+
     }
 }
 
 
 document.getElementById("flipper").onclick = rotate;
 
-document.addEventListener( 'keyup', event => {  
+document.addEventListener( 'keyup', event => {
         if( event.code === 'Enter' ){
             rotate();
         };
         if (event.code === 'Space' ) {
-            changeAction(); 
+            changeAction();
         };
       });
-// document.addEventListener( 'keyup', event => {  
+// document.addEventListener( 'keyup', event => {
 //         if( ){
-            
+
 //         };
 //       });
 
@@ -270,4 +270,3 @@ changeAction();
 fillLessonDropdowns(too);
 fromFunction(fromm);
 toFunction(too);
-

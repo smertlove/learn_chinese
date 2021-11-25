@@ -209,5 +209,45 @@ var additionals = [{
 	"translation":"зонтик",
 	"pinyin":"yŭsăn",
 	"lesson": 11
-	}
+},{
+        "hieroglyph": "纟系",
+        "translation": "нить шелк"
+        "pinyin": "nì",
+        "lesson": 13
+}
+,
+{
+        "hieroglyph": "本子",
+        "translation": "тетрадь"
+        "pinyin": "bĕnzi",
+        "lesson": 13
+}
+,
+{
+        "hieroglyph": "邮局",
+        "translation": "почтовое отделение"
+        "pinyin": "yóujú",
+        "lesson": 13
+}
+,
+{
+        "hieroglyph": "邮票",
+        "translation": "почтовая марка"
+        "pinyin": "yóupiào",
+        "lesson": 13
+}
+,
+{
+        "hieroglyph": "教搜",
+        "translation": "профессор"
+        "pinyin": "jiàoshòu",
+        "lesson": 13
+}
+,
+{
+        "hieroglyph": "名片",
+        "translation": "визитка"
+        "pinyin": "míngpiàn",
+        "lesson": 13
+}
 ]

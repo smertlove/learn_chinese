@@ -408,7 +408,7 @@ var heiroglyphs =	[{
     "pinyin":"xìng",
     "lesson": 9
     } ,
-  
+
     {
     "hieroglyph":"请问",
     "translation":"позвольте спросить",
@@ -469,8 +469,8 @@ var heiroglyphs =	[{
     "pinyin":"xué",
     "lesson": 9
     } ,
-     
-    
+
+
     {
     "hieroglyph":"习",
     "translation":"повторять изученное",
@@ -806,6 +806,160 @@ var heiroglyphs =	[{
         "translation":"мужчина",
         "pinyin":"Nán",
         "lesson": 12
+    },
+    {
+            "hieroglyph": "绍",
+            "translation": "наследование"
+            "pinyin": "shào",
+            "lesson": 13
     }
+    ,
+    {
+            "hieroglyph": "对",
+            "translation": "правильный верный"
+            "pinyin": "duì",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "了",
+            "translation": "модальное вспомогательное слово"
+            "pinyin": "le",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "和",
+            "translation": "и с"
+            "pinyin": "hé",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "说",
+            "translation": "говорить"
+            "pinyin": "shuō",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "兑",
+            "translation": "радость"
+            "pinyin": "yuè",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "名字",
+            "translation": "имя (человека)"
+            "pinyin": "míngzi",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "字",
+            "translation": "иероглиф"
+            "pinyin": "zì",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "喂",
+            "translation": "\"эй\"; \"алло\""
+            "pinyin": "wèi",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "啊",
+            "translation": "\"а\", \"ах\" (междомет)"
+            "pinyin": "à",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "商",
+            "translation": "торговля"
+            "pinyin": "shāng",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "店",
+            "translation": "лавочка магазин"
+            "pinyin": "diàn",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "商店",
+            "translation": "магазин"
+            "pinyin": "shāngdiàn",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "买",
+            "translation": "покупать"
+            "pinyin": "măi",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "卖",
+            "translation": "продавать"
+            "pinyin": "mài",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "买卖",
+            "translation": "торги"
+            "pinyin": "măimài",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "笔",
+            "translation": "ручка карандаш кисть"
+            "pinyin": "bĭ",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "犹太人",
+            "translation": "еврей :)"
+            "pinyin": "yoútáirēn",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "纸",
+            "translation": "бумага"
+            "pinyin": "zhĭ",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "来",
+            "translation": "приезжать приходить"
+            "pinyin": "lái",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "介绍",
+            "translation": "представлять (кого-то)"
+            "pinyin": "jièshào",
+            "lesson": 13
+    }
+    ,
+    {
+            "hieroglyph": "介",
+            "translation": "посредник"
+            "pinyin": "jiè",
+            "lesson": 13
+    }
+
 
 ]
