@@ -211,42 +211,42 @@ var additionals = [{
 	"lesson": 11
 },{
         "hieroglyph": "纟系",
-        "translation": "нить шелк"
+        "translation": "нить шелк",
         "pinyin": "nì",
         "lesson": 13
 }
 ,
 {
         "hieroglyph": "本子",
-        "translation": "тетрадь"
+        "translation": "тетрадь",
         "pinyin": "bĕnzi",
         "lesson": 13
 }
 ,
 {
         "hieroglyph": "邮局",
-        "translation": "почтовое отделение"
+        "translation": "почтовое отделение",
         "pinyin": "yóujú",
         "lesson": 13
 }
 ,
 {
         "hieroglyph": "邮票",
-        "translation": "почтовая марка"
+        "translation": "почтовая марка",
         "pinyin": "yóupiào",
         "lesson": 13
 }
 ,
 {
         "hieroglyph": "教搜",
-        "translation": "профессор"
+        "translation": "профессор",
         "pinyin": "jiàoshòu",
         "lesson": 13
 }
 ,
 {
         "hieroglyph": "名片",
-        "translation": "визитка"
+        "translation": "визитка",
         "pinyin": "míngpiàn",
         "lesson": 13
 }

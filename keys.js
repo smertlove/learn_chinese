@@ -343,34 +343,34 @@ var keys = [
   ,
   {
           "hieroglyph": "广",
-          "translation": "навес"
+          "translation": "навес",
           "pinyin": "",
           "lesson": 13
   },
   {
           "hieroglyph": "力",
-          "translation": "сила"
+          "translation": "сила",
           "pinyin": "lì",
           "lesson": 13
   }
   ,
   {
           "hieroglyph": "亇",
-          "translation": "бамбук"
+          "translation": "бамбук",
           "pinyin": "zhú",
           "lesson": 13
   }
   ,
   {
           "hieroglyph": "毛",
-          "translation": "шерсть, волосы, оперение"
+          "translation": "шерсть, волосы, оперение",
           "pinyin": "máo",
           "lesson": 13
   }
   ,
   {
           "hieroglyph": "禾",
-          "translation": "злак"
+          "translation": "злак",
           "pinyin": "hé",
           "lesson": 13
   }
