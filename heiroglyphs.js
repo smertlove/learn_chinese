@@ -865,14 +865,14 @@ var heiroglyphs =	[{
     ,
     {
             "hieroglyph": "喂",
-            "translation": "\"эй\"; \"алло\""
+            "translation": 'эй"; "алло"'
             "pinyin": "wèi",
             "lesson": 13
     }
     ,
     {
             "hieroglyph": "啊",
-            "translation": "\"а\", \"ах\" (междомет)"
+            "translation": '"а", "ах" (междомет)'
             "pinyin": "à",
             "lesson": 13
     }
