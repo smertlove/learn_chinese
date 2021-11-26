@@ -374,4 +374,25 @@ var keys = [
           "pinyin": "hé",
           "lesson": 13
   }
+  ,
+  {
+          "hieroglyph": "攵",
+          "translation": "бить",
+          "pinyin": "",
+          "lesson": 13
+  }
+  ,
+  {
+          "hieroglyph": "爫(кр), 爪(полн)",
+          "translation": "когти",
+          "pinyin": "zhăo",
+          "lesson": 13
+  }
+  ,
+  {
+          "hieroglyph": "片",
+          "translation": "карточка, пластинка, щепка",
+          "pinyin": "piàn",
+          "lesson": 13
+  }
 ]
