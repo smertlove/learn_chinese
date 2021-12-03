@@ -238,7 +238,7 @@ var additionals = [{
 }
 ,
 {
-        "hieroglyph": "教搜",
+        "hieroglyph": "教授",
         "translation": "профессор",
         "pinyin": "jiàoshòu",
         "lesson": 13
