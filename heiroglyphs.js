@@ -960,6 +960,138 @@ var heiroglyphs =	[{
             "pinyin": "jiè",
             "lesson": 13
     }
-
+    ,
+    {
+            "hieroglyph": "做",
+            "translation": "делать",
+            "pinyin": "zuò",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "工作",
+            "translation": "работать, работа",
+            "pinyin": "gōngzuò",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "想",
+            "translation": "думать, скучать",
+            "pinyin": "xiăng",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "家",
+            "translation": "дом, семья",
+            "pinyin": "jiā",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "有",
+            "translation": "иметь, обладать",
+            "pinyin": "yŏu",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "没",
+            "translation": "нет",
+            "pinyin": "méi",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "妹妹",
+            "translation": "младшая сестра",
+            "pinyin": "mèimei",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "姐姐",
+            "translation": "старшая сестра",
+            "pinyin": "jiĕjie",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "银行",
+            "translation": "банк",
+            "pinyin": "yínháng",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "爱人",
+            "translation": "муж/жена",
+            "pinyin": "àirén",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "书店",
+            "translation": "книжный магазин",
+            "pinyin": "shūdiàn",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "孩子",
+            "translation": "ребёнок, дитя",
+            "pinyin": "háizi",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "给",
+            "translation": "давать, предлог дательного падежа",
+            "pinyin": "gĕi",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "写",
+            "translation": "писать",
+            "pinyin": "xiĕ",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "信",
+            "translation": "письмо",
+            "pinyin": "xìn",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "告诉",
+            "translation": "сказать, сообщить",
+            "pinyin": "gàosu",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "银",
+            "translation": "серебро",
+            "pinyin": "yín",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "行",
+            "translation": "контора, магазин, ряд, профессия",
+            "pinyin": "háng",
+            "lesson": 14
+    }
+    ,
+    {
+            "hieroglyph": "爱",
+            "translation": "любить",
+            "pinyin": "ài",
+            "lesson": 14
+    }
 
 ]

@@ -250,4 +250,67 @@ var additionals = [{
         "pinyin": "míngpiàn",
         "lesson": 13
 }
+,
+{
+        "hieroglyph": "北京",
+        "translation": "Пекин",
+        "pinyin": "Běijīng",
+        "lesson": 14
+}
+,
+{
+        "hieroglyph": "职员",
+        "translation": "служащий, сотрудник",
+        "pinyin": "zhíyuán",
+        "lesson": 14
+}
+,
+{
+        "hieroglyph": "职",
+        "translation": "должность, служебные обязанности",
+        "pinyin": "zhí",
+        "lesson": 14
+}
+,
+{
+        "hieroglyph": "员",
+        "translation": "работник, сотрудник, член :)",
+        "pinyin": "yuán",
+        "lesson": 14
+}
+,
+{
+        "hieroglyph": "工程师",
+        "translation": "инженер",
+        "pinyin": "gōngchéngshī",
+        "lesson": 14
+}
+,
+{
+        "hieroglyph": "经理",
+        "translation": "директор, управляющий",
+        "pinyin": "jīnglǐ",
+        "lesson": 14
+}
+,
+{
+        "hieroglyph": "公司",
+        "translation": "компания, фирма",
+        "pinyin": "gōngsī",
+        "lesson": 14
+}
+,
+{
+        "hieroglyph": "国外",
+        "translation": "\"за рубежом\"",
+        "pinyin": "guó wài",
+        "lesson": 14
+}
+,
+{
+        "hieroglyph": "登记表",
+        "translation": "регистрационная карточка",
+        "pinyin": "dēngjì bǎo",
+        "lesson": 14
+}
 ]
