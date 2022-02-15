@@ -1092,6 +1092,127 @@ var heiroglyphs =	[{
             "translation": "любить",
             "pinyin": "ài",
             "lesson": 14
+    },
+    {
+        "hieroglyph": "中文",
+        "translation": "китайский язык",
+        "pinyin": "zhōngwén",
+        "lesson": 15
+    }, {
+        "hieroglyph": "系",
+        "translation": "факультет",
+        "pinyin": "Xì",
+        "lesson": 15
+    }, {
+        "hieroglyph": "个",
+        "translation": "счетное слово",
+        "pinyin": "gè",
+        "lesson": 15
+    }, {
+        "hieroglyph": "几",
+        "translation": "сколько, несколько (не больше десяти)",
+        "pinyin": "jǐ",
+        "lesson": 15
+    }, {
+        "hieroglyph": "教",
+        "translation": "учить, обучать",
+        "pinyin": "jiào",
+        "lesson": 15
+    }, {
+        "hieroglyph": "语法",
+        "translation": "грамматика",
+        "pinyin": "yǔfǎ",
+        "lesson": 15
+    }, {
+        "hieroglyph": "法",
+        "translation": "закон, право, метод, способ",
+        "pinyin": "fǎ",
+        "lesson": 15
+    }, {
+        "hieroglyph": "汉字",
+        "translation": "китайский иероглиф",
+        "pinyin": "hànzì",
+        "lesson": 15
+    }, {
+        "hieroglyph": "还",
+        "translation": "еще, все еще, все же",
+        "pinyin": "hái",
+        "lesson": 15
+    }, {
+        "hieroglyph": "口语",
+        "translation": "устная речь",
+        "pinyin": "kǒuyǔ",
+        "lesson": 15
+    }, {
+        "hieroglyph": "不敢当",
+        "translation": "что вы! не считаю себя таковым!",
+        "pinyin": "bù gǎn dāng",
+        "lesson": 15
+    }, {
+        "hieroglyph": "互相",
+        "translation": "взаимно, обоюдно, друг друга",
+        "pinyin": "hùxiāng",
+        "lesson": 15
+    }, {
+        "hieroglyph": "新",
+        "translation": "новый, свежий",
+        "pinyin": "xīn",
+        "lesson": 15
+    }, {
+        "hieroglyph": "阅览室",
+        "translation": "читальный зал",
+        "pinyin": "yuèlǎnshì",
+        "lesson": 15
+    }, {
+        "hieroglyph": "阅",
+        "translation": "просматривать",
+        "pinyin": "yuè",
+        "lesson": 15
+    }, {
+        "hieroglyph": "览",
+        "translation": "осматривать, знакомиться",
+        "pinyin": "lǎn",
+        "lesson": 15
+    }, {
+        "hieroglyph": "室",
+        "translation": "комната, зал",
+        "pinyin": "shì",
+        "lesson": 15
+    }, {
+        "hieroglyph": "阅览",
+        "translation": "читать, просматривать",
+        "pinyin": "yuèlǎn",
+        "lesson": 15
+    }, {
+        "hieroglyph": "杂志",
+        "translation": "журнал",
+        "pinyin": "zázhì",
+        "lesson": 15
+    }, {
+        "hieroglyph": "报纸",
+        "translation": "газета",
+        "pinyin": "bàozhǐ",
+        "lesson": 15
+    }, {
+        "hieroglyph": "本",
+        "translation": "сч. слово(книги, журналы)",
+        "pinyin": "běn",
+        "lesson": 15
+    }, {
+        "hieroglyph": "图书馆",
+        "translation": "библиотека",
+        "pinyin": "túshūguǎn",
+        "lesson": 15
+    }, {
+        "hieroglyph": "图书",
+        "translation": "библио-, книжный",
+        "pinyin": "túshū",
+        "lesson": 15
+    }, {
+        "hieroglyph": "馆",
+        "translation": "павильон, заведение",
+        "pinyin": "guǎn",
+        "lesson": 15
     }
 
 ]

@@ -312,5 +312,82 @@ var additionals = [{
         "translation": "регистрационная карточка",
         "pinyin": "dēngjì bǎo",
         "lesson": 14
+},
+
+ {
+    "hieroglyph": "班",
+    "translation": "группа, класс",
+    "pinyin": "bān",
+    "lesson": 15
+}, {
+    "hieroglyph": "教室",
+    "translation": "аудитория, класс",
+    "pinyin": "jiàoshì",
+    "lesson": 15
+}, {
+    "hieroglyph": "实验室",
+    "translation": "лаборатория",
+    "pinyin": "shíyànshì",
+    "lesson": 15
+}, {
+    "hieroglyph": "借",
+    "translation": "брать/давать взаймы",
+    "pinyin": "jiè",
+    "lesson": 15
+}, {
+    "hieroglyph": "生词",
+    "translation": "новое слово",
+    "pinyin": "shēngcí",
+    "lesson": 15
+}, {
+    "hieroglyph": "医院",
+    "translation": "больница",
+    "pinyin": "yīyuàn",
+    "lesson": 15
+}, {
+    "hieroglyph": "医",
+    "translation": "медицина",
+    "pinyin": "yī",
+    "lesson": 15
+}, {
+    "hieroglyph": "院",
+    "translation": "двор, учреждение",
+    "pinyin": "yuàn",
+    "lesson": 15
+}, {
+    "hieroglyph": "口",
+    "translation": "сч. слово(численность семьи)",
+    "pinyin": "kǒu",
+    "lesson": 15
+}, {
+    "hieroglyph": "帮助",
+    "translation": "помогать",
+    "pinyin": "bāngzhù",
+    "lesson": 15
+}, {
+    "hieroglyph": "学生城",
+    "translation": "студгородок",
+    "pinyin": "xuéshēng_chéng",
+    "lesson": 15
+}, {
+    "hieroglyph": "加",
+    "translation": "операция сложения",
+    "pinyin": "jiā",
+    "lesson": 15
+}, {
+    "hieroglyph": "减",
+    "translation": "операция вычитания",
+    "pinyin": "jiǎn",
+    "lesson": 15
+}, {
+    "hieroglyph": "得",
+    "translation": "получать (результат арефметич. действия)",
+    "pinyin": "dé",
+    "lesson": 15
+}, {
+    "hieroglyph": "丈夫",
+    "translation": "муж",
+    "pinyin": "zhàngfū",
+    "lesson": 15
 }
 ]
