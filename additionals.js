@@ -389,5 +389,102 @@ var additionals = [{
     "translation": "муж",
     "pinyin": "zhàngfū",
     "lesson": 15
+},
+
+{
+    "hieroglyph": "蓝",
+    "translation": "синий, голубой",
+    "pinyin": "lán",
+    "lesson": 16
+},
+{
+    "hieroglyph": "上衣",
+    "translation": "верхняя одежда, куртка, пиджак",
+    "pinyin": "shàngyī",
+    "lesson": 16
+},
+{
+    "hieroglyph": "上",
+    "translation": "верхний",
+    "pinyin": "shàng",
+    "lesson": 16
+},
+{
+    "hieroglyph": "衣",
+    "translation": "одежда",
+    "pinyin": "yī",
+    "lesson": 16
+},
+{
+    "hieroglyph": "裤子",
+    "translation": "брюки",
+    "pinyin": "kùzi",
+    "lesson": 16
+},
+{
+    "hieroglyph": "大衣",
+    "translation": "пальто",
+    "pinyin": "dàyī",
+    "lesson": 16
+},
+{
+    "hieroglyph": "黑",
+    "translation": "чернрый",
+    "pinyin": "hēi",
+    "lesson": 16
+},
+{
+    "hieroglyph": "剧场",
+    "translation": "театр, зрительный зал",
+    "pinyin": "jùchǎng",
+    "lesson": 16
+},
+{
+    "hieroglyph": "场",
+    "translation": "площадка, спортивное поле, сцена, сч. слово (сеанс)",
+    "pinyin": "chǎng",
+    "lesson": 16
+},
+{
+    "hieroglyph": "座位",
+    "translation": "сиденье, место",
+    "pinyin": "zuòwèi",
+    "lesson": 16
+},
+{
+    "hieroglyph": "青蛙",
+    "translation": "лягушка",
+    "pinyin": "qīngwā",
+    "lesson": 16
+},
+{
+    "hieroglyph": "嘴",
+    "translation": "рот",
+    "pinyin": "zuǐ",
+    "lesson": 16
+},
+{
+    "hieroglyph": "眼睛",
+    "translation": "глаза",
+    "pinyin": "yǎnjīng",
+    "lesson": 16
+},
+{
+    "hieroglyph": "腿",
+    "translation": "нога",
+    "pinyin": "tuǐ",
+    "lesson": 16
+},
+{
+    "hieroglyph": "动画片",
+    "translation": "мультфильм",
+    "pinyin": "dònghuàpiān",
+    "lesson": 16
+},
+{
+    "hieroglyph": "妻子",
+    "translation": "жена",
+    "pinyin": "qīzǐ",
+    "lesson": 16
 }
 ]

@@ -394,5 +394,60 @@ var keys = [
           "translation": "карточка, пластинка, щепка",
           "pinyin": "piàn",
           "lesson": 13
-  }
+  },
+
+{
+    "hieroglyph": "工",
+    "translation": "работа",
+    "pinyin": "gōng",
+    "lesson": 14
+},
+{
+    "hieroglyph": "豕",
+    "translation": "свинья",
+    "pinyin": "shǐ",
+    "lesson": 14
+},
+{
+    "hieroglyph": "金",
+    "translation": "золото, металл",
+    "pinyin": "jīn",
+    "lesson": 14
+},
+{
+    "hieroglyph": "耳",
+    "translation": "ухо",
+    "pinyin": "ěr",
+    "lesson": 14
+},
+{
+    "hieroglyph": "豆",
+    "translation": "боб (растение)",
+    "pinyin": "dòu",
+    "lesson": 14
+},
+{
+    "hieroglyph": "厶",
+    "translation": "частный, личный",
+    "pinyin": "sī",
+    "lesson": 14
+},
+{
+    "hieroglyph": "斤",
+    "translation": "топор",
+    "pinyin": "jīn",
+    "lesson": 15
+},
+{
+    "hieroglyph": "士",
+    "translation": "воин",
+    "pinyin": "shì",
+    "lesson": 15
+},
+{
+    "hieroglyph": "食",
+    "translation": "еда",
+    "pinyin": "shí",
+    "lesson": 15
+}
 ]

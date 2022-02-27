@@ -1213,6 +1213,103 @@ var heiroglyphs =	[{
         "translation": "павильон, заведение",
         "pinyin": "guǎn",
         "lesson": 15
-    }
+    },
+
+{
+    "hieroglyph": "条",
+    "translation": "сч. слово (длинные объекты)",
+    "pinyin": "tiáo",
+    "lesson": 16
+},
+{
+    "hieroglyph": "裙子",
+    "translation": "юбка",
+    "pinyin": "qúnzi",
+    "lesson": 16
+},
+{
+    "hieroglyph": "两",
+    "translation": "два",
+    "pinyin": "liǎng",
+    "lesson": 16
+},
+{
+    "hieroglyph": "张",
+    "translation": "сч. слово (ровные, плоские предметы)",
+    "pinyin": "zhāng",
+    "lesson": 16
+},
+{
+    "hieroglyph": "票",
+    "translation": "билет",
+    "pinyin": "piào",
+    "lesson": 16
+},
+{
+    "hieroglyph": "京剧",
+    "translation": "пекинская опера",
+    "pinyin": "jīngjù",
+    "lesson": 16
+},
+{
+    "hieroglyph": "剧",
+    "translation": "спектакль, пьеса",
+    "pinyin": "jù",
+    "lesson": 16
+},
+{
+    "hieroglyph": "晚上",
+    "translation": "вечер, вечером",
+    "pinyin": "wǎnshàng",
+    "lesson": 16
+},
+{
+    "hieroglyph": "太",
+    "translation": "слишком, чрезмерно",
+    "pinyin": "tài",
+    "lesson": 16
+},
+{
+    "hieroglyph": "从",
+    "translation": "из, от, с",
+    "pinyin": "cóng",
+    "lesson": 16
+},
+{
+    "hieroglyph": "找",
+    "translation": "искать",
+    "pinyin": "zhǎo",
+    "lesson": 16
+},
+{
+    "hieroglyph": "旧",
+    "translation": "старый, подержанный, БУ",
+    "pinyin": "jiù",
+    "lesson": 16
+},
+{
+    "hieroglyph": "穿",
+    "translation": "надевать, одевать, носить",
+    "pinyin": "chuān",
+    "lesson": 16
+},
+{
+    "hieroglyph": "件",
+    "translation": "сч. слово (для предметов одежды)",
+    "pinyin": "jiàn",
+    "lesson": 16
+},
+{
+    "hieroglyph": "衬衫",
+    "translation": "мужская рубашка, женская блузка",
+    "pinyin": "chènshān",
+    "lesson": 16
+},
+{
+    "hieroglyph": "绿",
+    "translation": "зеленый",
+    "pinyin": "lù",
+    "lesson": 16
+}
 
 ]
