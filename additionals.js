@@ -486,5 +486,119 @@ var additionals = [{
     "translation": "жена",
     "pinyin": "qīzǐ",
     "lesson": 16
+},
+{
+    "hieroglyph": "上班",
+    "translation": "идти на работу, быть на работе",
+    "pinyin": "shàngbān",
+    "lesson": 17
+},
+{
+    "hieroglyph": "班",
+    "translation": "рабочая смена",
+    "pinyin": "bān",
+    "lesson": 17
+},
+{
+    "hieroglyph": "下班",
+    "translation": "заканчивать работу",
+    "pinyin": "xiàbān",
+    "lesson": 17
+},
+{
+    "hieroglyph": "电影院",
+    "translation": "кинотеатр",
+    "pinyin": "diànyǐngyuàn",
+    "lesson": 17
+},
+{
+    "hieroglyph": "表",
+    "translation": "наручные/карманные часы",
+    "pinyin": "biǎo",
+    "lesson": 17
+},
+{
+    "hieroglyph": "钟",
+    "translation": "настенные/настольные/башенные часы",
+    "pinyin": "zhōng",
+    "lesson": 17
+},
+{
+    "hieroglyph": "以前",
+    "translation": "раньше, прежде, до",
+    "pinyin": "yǐqián",
+    "lesson": 17
+},
+{
+    "hieroglyph": "前",
+    "translation": "впереди, передний; предшествующий; раньше",
+    "pinyin": "qián",
+    "lesson": 17
+},
+{
+    "hieroglyph": "课本",
+    "translation": "учебник",
+    "pinyin": "kèběn",
+    "lesson": 17
+},
+{
+    "hieroglyph": "课文",
+    "translation": "учебный текст",
+    "pinyin": "kèwén",
+    "lesson": 17
+},
+{
+    "hieroglyph": "吧",
+    "translation": "предложение что-то сделать; вежливое предположение/вопрос",
+    "pinyin": "ba",
+    "lesson": 17
+},
+{
+    "hieroglyph": "明天",
+    "translation": "завтра",
+    "pinyin": "míngtiān",
+    "lesson": 17
+},
+{
+    "hieroglyph": "今天",
+    "translation": "сегодня",
+    "pinyin": "jīntiān",
+    "lesson": 17
+},
+{
+    "hieroglyph": "下午",
+    "translation": "во второй половине дня",
+    "pinyin": "xiàwǔ",
+    "lesson": 17
+},
+{
+    "hieroglyph": "快",
+    "translation": "спешить",
+    "pinyin": "kuài",
+    "lesson": 17
+},
+{
+    "hieroglyph": "便条",
+    "translation": "записка",
+    "pinyin": "biàntiáo",
+    "lesson": 17
+},
+{
+    "hieroglyph": "门口",
+    "translation": "двери, вход",
+    "pinyin": "ménkǒu",
+    "lesson": 17
+},
+{
+    "hieroglyph": "回家",
+    "translation": "идти домой",
+    "pinyin": "huíjiā",
+    "lesson": 17
+},
+{
+    "hieroglyph": "书法",
+    "translation": "каллиграфия",
+    "pinyin": "shūfǎ",
+    "lesson": 17
 }
 ]

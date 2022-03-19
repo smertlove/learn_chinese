@@ -8,7 +8,7 @@ var front = document.getElementById("front");
 var back = document.getElementById("back");
 
 var fromm = 1;
-var too = 16; // увеличивать на 1 после каждого урока
+var too = 17; // увеличивать на 1 после каждого урока
 
 
 var getVarFunc = null;
@@ -155,7 +155,7 @@ function setChoice2(){
         }
     }
     let changeDropdown = document.getElementById("dropdownMenuButton");
-    changeDropdown.innerText = "compounds only";
+    changeDropdown.innerText = "mains only";
     getVarFunc = getVariants;
     getVarFunc();
 }
@@ -170,7 +170,7 @@ function setChoice3(){
         }
     }
     let changeDropdown = document.getElementById("dropdownMenuButton");
-    changeDropdown.innerText = "pinyin only";
+    changeDropdown.innerText = "additionals only";
     getVarFunc = getVariants;
     getVarFunc();
 }

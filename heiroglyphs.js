@@ -1310,6 +1310,156 @@ var heiroglyphs =	[{
     "translation": "зеленый",
     "pinyin": "lù",
     "lesson": 16
+},
+{
+    "hieroglyph": "点",
+    "translation": "сч. слово (час)",
+    "pinyin": "diǎn",
+    "lesson": 17
+},
+{
+    "hieroglyph": "食堂",
+    "translation": "столовая",
+    "pinyin": "shítáng",
+    "lesson": 17
+},
+{
+    "hieroglyph": "食",
+    "translation": "еда",
+    "pinyin": "shí",
+    "lesson": 17
+},
+{
+    "hieroglyph": "堂",
+    "translation": "зал",
+    "pinyin": "táng",
+    "lesson": 17
+},
+{
+    "hieroglyph": "差",
+    "translation": "недоставать",
+    "pinyin": "chà",
+    "lesson": 17
+},
+{
+    "hieroglyph": "分",
+    "translation": "сч. слово (минута)",
+    "pinyin": "fēn",
+    "lesson": 17
+},
+{
+    "hieroglyph": "刻",
+    "translation": "сч. слово (четверть)",
+    "pinyin": "kè",
+    "lesson": 17
+},
+{
+    "hieroglyph": "上",
+    "translation": "ходить, посещать, проводить (про занятия, школу)",
+    "pinyin": "shàng",
+    "lesson": 17
+},
+{
+    "hieroglyph": "课",
+    "translation": "урок, занятия",
+    "pinyin": "kè",
+    "lesson": 17
+},
+{
+    "hieroglyph": "下",
+    "translation": "заканчивать",
+    "pinyin": "xià",
+    "lesson": 17
+},
+{
+    "hieroglyph": "以后",
+    "translation": "после, позже, после того, как",
+    "pinyin": "yǐhòu",
+    "lesson": 17
+},
+{
+    "hieroglyph": "后",
+    "translation": "сзади, задний; потом, будущий",
+    "pinyin": "hòu",
+    "lesson": 17
+},
+{
+    "hieroglyph": "事儿",
+    "translation": "дело, событие, работа",
+    "pinyin": "shìr",
+    "lesson": 17
+},
+{
+    "hieroglyph": "回",
+    "translation": "возвращаться, поворачивать обратно",
+    "pinyin": "huí",
+    "lesson": 17
+},
+{
+    "hieroglyph": "跟",
+    "translation": "(вместе) с; идти с, следовать за",
+    "pinyin": "gēn",
+    "lesson": 17
+},
+{
+    "hieroglyph": "一起",
+    "translation": "вместе, совместно",
+    "pinyin": "yìqǐ",
+    "lesson": 17
+},
+{
+    "hieroglyph": "电影",
+    "translation": "фильм, кино",
+    "pinyin": "diànyǐng",
+    "lesson": 17
+},
+{
+    "hieroglyph": "电",
+    "translation": "электричество, электронный",
+    "pinyin": "diàn",
+    "lesson": 17
+},
+{
+    "hieroglyph": "咖啡馆",
+    "translation": "кафе",
+    "pinyin": "kāfēiguǎn",
+    "lesson": 17
+},
+{
+    "hieroglyph": "咖啡",
+    "translation": "кофе",
+    "pinyin": "kāfēi",
+    "lesson": 17
+},
+{
+    "hieroglyph": "半",
+    "translation": "половина",
+    "pinyin": "bàn",
+    "lesson": 17
+},
+{
+    "hieroglyph": "啊",
+    "translation": "модальная частица",
+    "pinyin": "a",
+    "lesson": 17
+},
+{
+    "hieroglyph": "等",
+    "translation": "ждать, ожидать",
+    "pinyin": "děng",
+    "lesson": 17
+},
+{
+    "hieroglyph": "走",
+    "translation": "идти пешком",
+    "pinyin": "zǒu",
+    "lesson": 17
+},
+{
+    "hieroglyph": "路",
+    "translation": "дорога, путь, улица",
+    "pinyin": "lù",
+    "lesson": 17
 }
 
 ]
