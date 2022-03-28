@@ -1460,6 +1460,101 @@ var heiroglyphs =	[{
     "translation": "дорога, путь, улица",
     "pinyin": "lù",
     "lesson": 17
+},
+{
+    "hieroglyph": "天",
+    "translation": "день",
+    "pinyin": "tiān",
+    "lesson": 18
+},
+{
+    "hieroglyph": "每",
+    "translation": "каждый, всякий",
+    "pinyin": "měi",
+    "lesson": 18
+},
+{
+    "hieroglyph": "起床",
+    "translation": "вставать (с постели)",
+    "pinyin": "qǐchuáng",
+    "lesson": 18
+},
+{
+    "hieroglyph": "起",
+    "translation": "вставать; подниматься",
+    "pinyin": "qǐ",
+    "lesson": 18
+},
+{
+    "hieroglyph": "床",
+    "translation": "кровать",
+    "pinyin": "chuáng",
+    "lesson": 18
+},
+{
+    "hieroglyph": "上午",
+    "translation": "первая половина дня",
+    "pinyin": "shàngwǔ",
+    "lesson": 18
+},
+{
+    "hieroglyph": "午",
+    "translation": "полдень",
+    "pinyin": "wǔ",
+    "lesson": 18
+},
+{
+    "hieroglyph": "吃",
+    "translation": "есть, кушать",
+    "pinyin": "chī",
+    "lesson": 18
+},
+{
+    "hieroglyph": "饭",
+    "translation": "вареный рис; еда, пища",
+    "pinyin": "fàn",
+    "lesson": 18
+},
+{
+    "hieroglyph": "下午",
+    "translation": "вторая половина дня",
+    "pinyin": "xiàwǔ",
+    "lesson": 18
+},
+{
+    "hieroglyph": "休息",
+    "translation": "отдыхать",
+    "pinyin": "xiūxī",
+    "lesson": 18
+},
+{
+    "hieroglyph": "有时候",
+    "translation": "иногда, порой",
+    "pinyin": "yǒushíhòu",
+    "lesson": 18
+},
+{
+    "hieroglyph": "时候",
+    "translation": "время, пора",
+    "pinyin": "shíhòu",
+    "lesson": 18
+},
+{
+    "hieroglyph": "问题",
+    "translation": "вопрос, проблема",
+    "pinyin": "wèntí",
+    "lesson": 18
+},
+{
+    "hieroglyph": "睡觉",
+    "translation": "спать; ложиться спать",
+    "pinyin": "shuìjiào",
+    "lesson": 18
 }
+
+
+
+
+
 
 ]

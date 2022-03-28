@@ -9,7 +9,7 @@ body{
   justify-content: center;
   align-items: center;
   color: white;
-  
+
 }
 
 .exercize-nav{
@@ -18,10 +18,10 @@ body{
     color: white;
 }
 
-.my-check{  
+.my-check{
     transform:scale(1.8);
     opacity:0.9;
-    cursor:pointer;      
+    cursor:pointer;
 }
 
 
@@ -34,13 +34,13 @@ body{
   -webkit-transform-style: preserve-3d;
 
   transform-style: preserve-3d;
-  
+
   position: relative;
   background-color: #fff;
-  
+
   text-align: center;
   padding-top: 35%;
-  
+
 }
 
 .flipper {
@@ -48,7 +48,7 @@ body{
   padding-right: 0px;
   margin-bottom: 10px;
   perspective: 1000px;
-  
+
 }
 
 #myCardContent{
@@ -76,8 +76,8 @@ body{
   background-image: url(assets/background.jpg);
   background-position: top;
   border-radius: 3%;
-  
-  
+
+
 }
 .my-grad{
   background: linear-gradient(180deg, rgba(44, 43, 43, 0.836),  rgba(238, 16, 16, 0.644));
@@ -88,8 +88,8 @@ body{
   background-image: url(assets/background.jpg);
   /* background-position: top; */
   /* border-radius: 3%;
-  
-} */ 
+
+} */
 
 /* #f{
   background-color: rgb(255, 255, 255);
@@ -112,6 +112,10 @@ body{
 
 .bot-marg{
   margin-bottom: 1%;
-  
+
 }
 
+.dropdown-menu{
+  max-height: 50vh;
+  overflow-y:scroll;
+}

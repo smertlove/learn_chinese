@@ -600,5 +600,23 @@ var additionals = [{
     "translation": "каллиграфия",
     "pinyin": "shūfǎ",
     "lesson": 17
+},
+{
+    "hieroglyph": "中午",
+    "translation": "полдень",
+    "pinyin": "zhōngwǔ",
+    "lesson": 18
+},
+{
+    "hieroglyph": "历史",
+    "translation": "история",
+    "pinyin": "lìshǐ",
+    "lesson": 18
+},
+{
+    "hieroglyph": "文学",
+    "translation": "литература",
+    "pinyin": "wénxué",
+    "lesson": 18
 }
 ]

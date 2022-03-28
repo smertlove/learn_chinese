@@ -449,5 +449,54 @@ var keys = [
     "translation": "еда",
     "pinyin": "shí",
     "lesson": 15
+},
+
+{
+    "hieroglyph": "弓",
+    "translation": "лук",
+    "pinyin": "gōng",
+    "lesson": 17
+},
+{
+    "hieroglyph": "长",
+    "translation": "старший, длинный",
+    "pinyin": "zhǎng; cháng",
+    "lesson": 17
+},
+{
+    "hieroglyph": "穴",
+    "translation": "пещера",
+    "pinyin": "xué",
+    "lesson": 17
+},
+{
+    "hieroglyph": "牙",
+    "translation": "зуб",
+    "pinyin": "yá",
+    "lesson": 17
+},
+{
+    "hieroglyph": "牛",
+    "translation": "корова",
+    "pinyin": "niú",
+    "lesson": 17
+},
+{
+    "hieroglyph": "彡",
+    "translation": "перья",
+    "pinyin": "shān",
+    "lesson": 17
+},
+{
+    "hieroglyph": "虫",
+    "translation": "двигаться; движение",
+    "pinyin": "chóng",
+    "lesson": 17
+},
+{
+    "hieroglyph": "角",
+    "translation": "угол; рог",
+    "pinyin": "jiǎo",
+    "lesson": 17
 }
 ]
